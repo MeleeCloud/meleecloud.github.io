@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+header,
+nav,
+main,
+footer {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+section,
+article {
+  background-color: white;
+  padding: 24px;
+  margin-bottom: 24px;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
