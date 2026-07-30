@@ -31,3 +31,35 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.site-navigation {
+  display: flex;
+  gap: 1.25rem;
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem 1.25rem;
+}
+
+.site-header,
+main,
+footer {
+  max-width: 900px;
+  margin-inline: auto;
+  padding: 1.25rem;
+}
+
+.entry-details {
+  padding: 0;
+  list-style: none;
+}
+
+.entry-card {
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #ddd;
+  border-radius: 0.75rem;
+}
+
+.entry-card h2 {
+  margin-top: 0;
+}
