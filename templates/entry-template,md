@@ -1,14 +1,16 @@
 ---
-title: Example Game
+title: Title of the Game
 media_type: Game
-platform:
-year_experienced:
-status:
-summary:
+platform: PC
+year_experienced: 2026
+status: Completed
+summary: A short optional preview for the Library.
 ---
 
-<!-- Your entry begins here. Delete this comment whenever you are ready. -->
+## First section
 
-## Section title
+Your writing goes here.
 
-<!-- Your words go here. -->
+## Another section
+
+More of your writing goes here.
