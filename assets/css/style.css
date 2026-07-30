@@ -295,3 +295,38 @@ footer {
     transition: none;
   }
 }
+
+
+
+.library-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.library-controls label {
+  font-weight: bold;
+}
+
+.library-controls select {
+  padding: 0.55rem 2.25rem 0.55rem 0.75rem;
+  color: inherit;
+  background-color: inherit;
+  border: 1px solid currentColor;
+  border-radius: 0.4rem;
+  font: inherit;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .library-controls {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .library-controls select {
+    width: 100%;
+  }
+}
