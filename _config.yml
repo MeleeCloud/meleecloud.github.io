@@ -8,7 +8,7 @@ collections:
 
   topics:
     output: true
-    permalink: /entries/:entry/:slug/
+    permalink: /topics/:name/
 
 defaults:
   - scope:
