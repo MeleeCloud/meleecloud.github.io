@@ -5,6 +5,8 @@ platform: PC
 year_experienced: 2026
 status: Completed
 summary: A short optional preview for the Library.
+spine_image:
+expanded_image:
 ---
 
 ## First section
