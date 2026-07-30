@@ -133,7 +133,7 @@ footer {
 .library-entry::before {
   background-image: var(--spine-image);
   opacity: 1;
-  transform: scale(0.8);
+  transform: scale(0.7);
   transform: translate(0px,10px)
 }
 
