@@ -53,17 +53,6 @@ footer {
   list-style: none;
 }
 
-.entry-card {
-  padding: 1.25rem;
-  margin-bottom: 1.25rem;
-  border: 1px solid #ddd;
-  border-radius: 0.75rem;
-}
-
-.entry-card h2 {
-  margin-top: 0;
-}
-
 .spoiler {
   padding: 1rem;
   border: 1px solid #999;
@@ -73,4 +62,218 @@ footer {
 .spoiler summary {
   cursor: pointer;
   font-weight: bold;
+}
+
+/* Library layout */
+
+.library-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+/* Collapsed entry */
+
+.library-entry {
+  --entry-text: #ffffff;
+  --entry-background: #252a34;
+
+  position: relative;
+  isolation: isolate;
+  min-height: 4.5rem;
+  padding: 0 1.25rem;
+  overflow: hidden;
+
+  color: var(--entry-text);
+  background-color: var(--entry-background);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 0.75rem;
+
+  transition:
+    min-height 350ms ease,
+    padding 350ms ease,
+    transform 200ms ease,
+    box-shadow 350ms ease;
+}
+
+/*
+  These two layers are ready for your future images.
+  They remain invisible when an entry has no images.
+*/
+
+.library-entry::before,
+.library-entry::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  transition:
+    opacity 400ms ease,
+    transform 500ms ease;
+}
+
+.library-entry::before {
+  background-image: var(--spine-image);
+  opacity: 1;
+}
+
+.library-entry::after {
+  background-image: var(--expanded-image);
+  opacity: 0;
+  transform: scale(1.08);
+}
+
+/* Dark overlay keeps text readable over future images. */
+
+.library-entry-heading::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(10, 12, 18, 0.92),
+      rgba(10, 12, 18, 0.55)
+    );
+
+  pointer-events: none;
+}
+
+/* Always-visible heading */
+
+.library-entry-heading {
+  min-height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.library-entry h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.library-entry h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.library-entry h2 a:hover {
+  text-decoration: underline;
+}
+
+.expand-label {
+  flex-shrink: 0;
+  opacity: 0.7;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Hidden information */
+
+.library-entry-details {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+
+  transition:
+    grid-template-rows 350ms ease,
+    opacity 250ms ease;
+}
+
+.library-entry-details-inner {
+  overflow: hidden;
+}
+
+.entry-summary {
+  max-width: 42rem;
+  margin: 0 0 1.25rem;
+  line-height: 1.6;
+}
+
+.entry-metadata {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2.5rem;
+  margin: 0 0 1.5rem;
+}
+
+.entry-metadata div {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.entry-metadata dt {
+  opacity: 0.7;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.entry-metadata dd {
+  margin: 0;
+}
+
+.entry-link {
+  display: inline-block;
+  color: inherit;
+  font-weight: bold;
+}
+
+/* Expanded entry */
+
+.library-entry:hover,
+.library-entry:focus,
+.library-entry:focus-within {
+  min-height: 15rem;
+  padding-bottom: 1.5rem;
+  transform: translateY(-2px);
+
+  box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.22);
+  outline: none;
+}
+
+.library-entry:hover .library-entry-details,
+.library-entry:focus .library-entry-details,
+.library-entry:focus-within .library-entry-details {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.library-entry:hover .expand-label,
+.library-entry:focus .expand-label,
+.library-entry:focus-within .expand-label {
+  opacity: 0;
+}
+
+.library-entry:hover::before,
+.library-entry:focus::before,
+.library-entry:focus-within::before {
+  opacity: 0;
+}
+
+.library-entry:hover::after,
+.library-entry:focus::after,
+.library-entry:focus-within::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Respect visitors who disable animation. */
+
+@media (prefers-reduced-motion: reduce) {
+  .library-entry,
+  .library-entry::before,
+  .library-entry::after,
+  .library-entry-details {
+    transition: none;
+  }
 }
