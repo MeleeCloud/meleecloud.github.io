@@ -6,6 +6,10 @@ collections:
     output: true
     permalink: /entries/:name/
 
+    topics:
+    output: true
+    permalink: /entries/:entry/:slug/
+
 defaults:
   - scope:
       path: ""
