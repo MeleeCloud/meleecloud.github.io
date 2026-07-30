@@ -8,6 +8,7 @@ on:
       - "_data/library.yml"
       - "templates/entry-template.md"
       - ".github/scripts/sync_entries.rb"
+      - ".github/workflows/sync-entries.yml"
 
   workflow_dispatch:
 
@@ -20,7 +21,7 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
@@ -32,7 +33,9 @@ jobs:
 
       - name: Commit created files
         run: |
-          if git diff --quiet -- _entries; then
+          git add _entries
+
+          if git diff --cached --quiet; then
             echo "No new entry files were created."
             exit 0
           fi
@@ -40,6 +43,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add _entries
           git commit -m "Create missing library entry files"
           git push
