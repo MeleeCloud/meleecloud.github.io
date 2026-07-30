@@ -1,39 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Library</title>
-  <link rel="stylesheet" href="/css/style.css">
-</head>
+---
+layout: default
+title: Library
+permalink: /library/
+---
 
-<body>
-  <nav>
-    <a href="/">Home</a>
-    <a href="/library.html">Library</a>
-    <a href="/about.html">About</a>
-  </nav>
-  
-  <header>
-    <h1>Library</h1>
-  </header>
+{% assign sorted_entries = site.entries | sort: "title" %}
 
-  <main>
-    <article class="media-card">
-      <h2>DELTARUNE</h2>
-      DELTARUNE!
-      <a href="/entries/deltarune.html">Open entry</a>
+<section class="entry-list">
+  {% for entry in sorted_entries %}
+    <article class="entry-card">
+      <h2>
+        <a href="{{ entry.url | relative_url }}">
+          {{ entry.title }}
+        </a>
+      </h2>
+
+      {% if entry.media_type %}
+        <p><strong>Type:</strong> {{ entry.media_type }}</p>
+      {% endif %}
+
+      {% if entry.year_experienced %}
+        <p>
+          <strong>Experienced:</strong>
+          {{ entry.year_experienced }}
+        </p>
+      {% endif %}
+
+      {% if entry.summary %}
+        <p>{{ entry.summary }}</p>
+      {% endif %}
+
+      <a href="{{ entry.url | relative_url }}">Read entry</a>
     </article>
-
-    <article class="media-card">
-      <h2>Kingdom Hearts</h2>
-      May your heart be your guiding key
-      <a href="/entries/kingdom-hearts.html">Open entry</a>
-    </article>
-  </main>
-
-  <footer>
-    <!-- Footer information can go here -->
-  </footer>
-</body>
-</html>
+  {% else %}
+    <p>No entries have been published yet.</p>
+  {% endfor %}
+</section>
