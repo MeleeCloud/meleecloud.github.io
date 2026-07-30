@@ -26,8 +26,51 @@
     {{ content }}
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <p>&copy; {{ site.time | date: "%Y" }}</p>
+  
+    {% if site.github.build_revision %}
+      <p class="site-version">
+        Site updated:
+        <time id="commit-time">loading…</time>
+  
+        ·
+  
+        <a
+          href="{{ site.github.repository_url }}/commit/{{ site.github.build_revision }}"
+          title="{{ site.github.build_revision }}"
+        >
+          commit {{ site.github.build_revision | slice: 0, 7 }}
+        </a>
+      </p>
+  
+      <script>
+        (() => {
+          const repository = "{{ site.github.repository_nwo }}";
+          const revision = "{{ site.github.build_revision }}";
+          const timeElement = document.querySelector("#commit-time");
+  
+          fetch(`https://api.github.com/repos/${repository}/commits/${revision}`)
+            .then(response => {
+              if (!response.ok) throw new Error("Commit unavailable");
+              return response.json();
+            })
+            .then(commit => {
+              const timestamp = commit.commit.committer.date;
+              const date = new Date(timestamp);
+  
+              timeElement.dateTime = timestamp;
+              timeElement.textContent = date.toLocaleString(undefined, {
+                dateStyle: "medium",
+                timeStyle: "short"
+              });
+            })
+            .catch(() => {
+              timeElement.textContent = "timestamp unavailable";
+            });
+        })();
+      </script>
+    {% endif %}
   </footer>
 </body>
 </html>
