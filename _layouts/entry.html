@@ -33,3 +33,28 @@ layout: default
     <a href="{{ '/library/' | relative_url }}">Back to Library</a>
   </p>
 </article>
+
+{% assign related_topics = site.topics
+  | where: "entry", page.entry_id
+  | sort: "order"
+%}
+
+{% if related_topics.size > 0 %}
+  <nav class="entry-topics" aria-labelledby="entry-topics-heading">
+    <h2 id="entry-topics-heading">Explore my thoughts</h2>
+
+    <ul>
+      {% for topic in related_topics %}
+        <li>
+          <a href="{{ topic.url | relative_url }}">
+            {{ topic.title }}
+          </a>
+
+          {% if topic.summary %}
+            <p>{{ topic.summary }}</p>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+{% endif %}
