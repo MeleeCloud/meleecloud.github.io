@@ -63,3 +63,14 @@ footer {
 .entry-card h2 {
   margin-top: 0;
 }
+
+.spoiler {
+  padding: 1rem;
+  border: 1px solid #999;
+  border-radius: 0.5rem;
+}
+
+.spoiler summary {
+  cursor: pointer;
+  font-weight: bold;
+}
