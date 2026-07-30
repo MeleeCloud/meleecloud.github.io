@@ -1,5 +1,6 @@
 ---
 title: Kingdom Hearts
+entry_id: kingdom-hearts
 media_type: Game
 platform: PC (Steam)
 year_experienced: 2026
