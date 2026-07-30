@@ -1,5 +1,6 @@
 ---
 title: DELTARUNE
+entry_id: deltarune
 media_type: Game
 platform: Nintendo Switch 2
 year_experienced: 2026
@@ -9,4 +10,4 @@ spine_image: /assets/images/deltarune/deltarune-spine.jpg
 expanded_image: /assets/images/deltarune/deltarune-background.jpg
 ---
 
-<!-- Add your sections and writing here. -->
+## Work In Progress!
