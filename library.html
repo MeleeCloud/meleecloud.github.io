@@ -4,13 +4,29 @@ title: Library
 permalink: /library/
 ---
 
+<div class="library-controls">
+  <label for="library-sort">Sort by</label>
+
+  <select id="library-sort">
+    <option value="default">Featured order</option>
+    <option value="name">Name (A–Z)</option>
+    <option value="year">Year experienced (newest)</option>
+    <option value="platform">Platform (A–Z)</option>
+  </select>
+</div>
+
+
 {% assign sorted_entries = site.entries | sort: "title" %}
 
 <section class="library-list">
   {% for entry in sorted_entries %}
     <article
-      class="library-entry"
-      tabindex="0"
+        class="library-entry"
+        tabindex="0"
+        data-name="{{ entry.title | downcase | escape }}"
+        data-year="{{ entry.year_experienced | default: 0 }}"
+        data-platform="{{ entry.platform | downcase | escape }}"
+        data-original-position="{{ forloop.index0 }}"
 
       {% if entry.spine_image %}
         style="
@@ -80,3 +96,54 @@ permalink: /library/
     <p>No entries have been published yet.</p>
   {% endfor %}
 </section>
+
+<script>
+  (() => {
+    const sortSelect = document.querySelector("#library-sort");
+    const entryList = document.querySelector(".library-list");
+
+    if (!sortSelect || !entryList) return;
+
+    const entries = [...entryList.querySelectorAll(".library-entry")];
+
+    const compareText = (first, second) =>
+      first.localeCompare(second, undefined, {
+        sensitivity: "base",
+        numeric: true
+      });
+
+    sortSelect.addEventListener("change", () => {
+      const sortedEntries = [...entries];
+
+      sortedEntries.sort((first, second) => {
+        switch (sortSelect.value) {
+          case "name":
+            return compareText(first.dataset.name, second.dataset.name);
+
+          case "year":
+            return (
+              Number(second.dataset.year) - Number(first.dataset.year) ||
+              compareText(first.dataset.name, second.dataset.name)
+            );
+
+          case "platform":
+            return (
+              compareText(
+                first.dataset.platform || "zzzz",
+                second.dataset.platform || "zzzz"
+              ) ||
+              compareText(first.dataset.name, second.dataset.name)
+            );
+
+          default:
+            return (
+              Number(first.dataset.originalPosition) -
+              Number(second.dataset.originalPosition)
+            );
+        }
+      });
+
+      sortedEntries.forEach(entry => entryList.append(entry));
+    });
+  })();
+</script>
