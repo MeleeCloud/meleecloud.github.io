@@ -31,17 +31,7 @@
   
     {% if site.github.build_revision %}
       <p class="site-version">
-        Site updated:
-        <time id="commit-time">loading…</time>
-  
-        ·
-  
-        <a
-          href="{{ site.github.repository_url }}/commit/{{ site.github.build_revision }}"
-          title="{{ site.github.build_revision }}"
-        >
-          commit {{ site.github.build_revision | slice: 0, 7 }}
-        </a>
+        Last updated: <time id="commit-time">loading…</time>
       </p>
   
       <script>
@@ -52,7 +42,7 @@
   
           fetch(`https://api.github.com/repos/${repository}/commits/${revision}`)
             .then(response => {
-              if (!response.ok) throw new Error("Commit unavailable");
+              if (!response.ok) throw new Error();
               return response.json();
             })
             .then(commit => {
@@ -66,7 +56,7 @@
               });
             })
             .catch(() => {
-              timeElement.textContent = "timestamp unavailable";
+              timeElement.textContent = "recently";
             });
         })();
       </script>
