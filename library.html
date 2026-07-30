@@ -6,31 +6,75 @@ permalink: /library/
 
 {% assign sorted_entries = site.entries | sort: "title" %}
 
-<section class="entry-list">
+<section class="library-list">
   {% for entry in sorted_entries %}
-    <article class="entry-card">
-      <h2>
-        <a href="{{ entry.url | relative_url }}">
-          {{ entry.title }}
-        </a>
-      </h2>
+    <article
+      class="library-entry"
+      tabindex="0"
 
-      {% if entry.media_type %}
-        <p><strong>Type:</strong> {{ entry.media_type }}</p>
+      {% if entry.spine_image %}
+        style="
+          --spine-image:
+            url('{{ entry.spine_image | relative_url }}');
+
+          --expanded-image:
+            url('{{ entry.expanded_image
+              | default: entry.spine_image
+              | relative_url }}');
+        "
       {% endif %}
+    >
+      <div class="library-entry-heading">
+        <h2>
+          <a href="{{ entry.url | relative_url }}">
+            {{ entry.title }}
+          </a>
+        </h2>
 
-      {% if entry.year_experienced %}
-        <p>
-          <strong>Experienced:</strong>
-          {{ entry.year_experienced }}
-        </p>
-      {% endif %}
+        <span class="expand-label" aria-hidden="true">
+          Explore
+        </span>
+      </div>
 
-      {% if entry.summary %}
-        <p>{{ entry.summary }}</p>
-      {% endif %}
+      <div class="library-entry-details">
+        <div class="library-entry-details-inner">
+          {% if entry.summary %}
+            <p class="entry-summary">
+              {{ entry.summary }}
+            </p>
+          {% endif %}
 
-      <a href="{{ entry.url | relative_url }}">Read entry</a>
+          <dl class="entry-metadata">
+            {% if entry.media_type %}
+              <div>
+                <dt>Type</dt>
+                <dd>{{ entry.media_type }}</dd>
+              </div>
+            {% endif %}
+
+            {% if entry.year_experienced %}
+              <div>
+                <dt>Experienced</dt>
+                <dd>{{ entry.year_experienced }}</dd>
+              </div>
+            {% endif %}
+
+            {% if entry.platform %}
+              <div>
+                <dt>Platform</dt>
+                <dd>{{ entry.platform }}</dd>
+              </div>
+            {% endif %}
+          </dl>
+
+          <a
+            class="entry-link"
+            href="{{ entry.url | relative_url }}"
+          >
+            Open entry →
+          </a>
+        </div>
+      </div>
     </article>
   {% else %}
     <p>No entries have been published yet.</p>
