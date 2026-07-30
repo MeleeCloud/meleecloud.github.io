@@ -93,7 +93,7 @@ footer {
 
   position: relative;
   isolation: isolate;
-  min-height: 4.5rem;
+  min-height: 7rem;
   padding: 0 1.25rem;
   overflow: hidden;
 
@@ -165,7 +165,7 @@ footer {
 /* Always-visible heading */
 
 .library-entry-heading {
-  min-height: 4.5rem;
+  min-height: 7rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -250,7 +250,7 @@ footer {
 .library-entry:hover,
 .library-entry:focus,
 .library-entry:focus-within {
-  min-height: 15rem;
+  min-height: 23rem;
   padding-bottom: 1.5rem;
   transform: translateY(-2px);
 
@@ -284,21 +284,6 @@ footer {
   transform: scale(1);
 }
 
-@media (min-width: 768px) {
-  .library-entry {
-    min-height: 7rem;
-  }
-
-  .library-entry-heading {
-    min-height: 7rem;
-  }
-
-  .library-entry:hover,
-  .library-entry:focus,
-  .library-entry:focus-within {
-    min-height: 22rem;
-  }
-}
 
 /* Respect visitors who disable animation. */
 
