@@ -1,5 +1,6 @@
 ---
 title: Pokemon HeartGold and SoulSilver
+entry_id: pokemon-hgss
 media_type: Game
 platform: Nintendo DS
 year_experienced: "2015-2025"
