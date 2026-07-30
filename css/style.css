@@ -1,1 +1,44 @@
 
+<style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #222;
+    }
+
+    header {
+      background-color: #1f2937;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 48px;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background-color: white;
+      margin-bottom: 25px;
+      padding: 25px;
+      border-radius: 10px;
+    }
+
+    a {
+      color: #2563eb;
+    }
+
+    footer {
+      padding: 25px;
+      text-align: center;
+      color: #666;
+    }
+  </style>
