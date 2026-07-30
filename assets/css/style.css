@@ -64,6 +64,20 @@ footer {
   font-weight: bold;
 }
 
+.site-version {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+.site-version a {
+  color: inherit;
+}
+
+
+
+
+
+
 /* Library layout */
 
 .library-list {
