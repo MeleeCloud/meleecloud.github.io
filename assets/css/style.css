@@ -119,12 +119,13 @@ footer {
 .library-entry::before {
   background-image: var(--spine-image);
   opacity: 1;
+  transform: scale(0.8);
 }
 
 .library-entry::after {
   background-image: var(--expanded-image);
   opacity: 0;
-  transform: scale(1.08);
+  transform: scale(1.0);
 }
 
 /* Dark overlay keeps text readable over future images. */
