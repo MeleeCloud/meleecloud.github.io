@@ -1,5 +1,6 @@
 ---
 title: Final Fantasy X
+entry_id: final-fantasy-x
 media_type: Game
 platform: Nintendo Switch
 year_experienced: "2024, 2026"
