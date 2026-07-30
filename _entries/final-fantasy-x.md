@@ -1,14 +1,5 @@
 ---
-title: Final Fantasy X
 entry_id: final-fantasy-x
-media_type: Game
-platform: Nintendo Switch
-year_experienced: "2024, 2026"
-sort_year: 2026
-status: Ongoing
-summary: Reminding me why I hate random encounters...
-spine_image:
-expanded_image:
 ---
 
 ## First section

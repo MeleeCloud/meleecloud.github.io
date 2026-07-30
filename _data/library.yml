@@ -1,0 +1,48 @@
+entries:
+- title: DELTARUNE
+  entry_id: deltarune
+  media_type: Game
+  platform: Nintendo Switch 2
+  year_experienced: "2018, 2026"
+  sort_year: 2026
+  status: Waiting for the next chapter...
+  summary: Apparently, bullet hells aren't so bad after all.
+  order: 10
+  spine_image: /assets/images/deltarune/deltarune-spine.jpg
+  expanded_image: /assets/images/deltarune/deltarune-background.jpg
+
+- title: Final Fantasy X
+  entry_id: final-fantasy-x
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: "2024, 2026"
+  sort_year: 2026
+  status: Ongoing
+  summary: Reminding me why I hate random encounters...
+  order: 20
+  spine_image:
+  expanded_image:
+
+- title: Kingdom Hearts
+  entry_id: kingdom-hearts
+  media_type: Game
+  platform: PC (Steam)
+  year_experienced: "2026"
+  sort_year: 2026
+  status: Main Story Completed
+  summary: May your heart be your guiding key...
+  order: 30
+  spine_image: /assets/images/kingdom-hearts/kingdom-hearts-spine.png
+  expanded_image: /assets/images/kingdom-hearts/kingdom-hearts-background.jpg
+
+- title: Pokemon HeartGold and SoulSilver
+  entry_id: pokemon-hgss
+  media_type: Game
+  platform: Nintendo DS
+  year_experienced: "2015-2025"
+  sort_year: 2025
+  status: Completed - Regional Living Dex
+  summary: The most cherished game in my memories.
+  order: 40
+  spine_image:
+  expanded_image:

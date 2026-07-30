@@ -1,3 +1,11 @@
+{% assign resolved_title = page.title %}
+{% if page.entry_id %}
+  {% assign page_metadata = site.data.library.entries
+    | where: "entry_id", page.entry_id
+    | first
+  %}
+  {% assign resolved_title = page_metadata.title | default: page.entry_id %}
+{% endif %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,8 +13,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>
-    {% if page.title %}
-      {{ page.title }} | {{ site.title }}
+    {% if resolved_title %}
+      {{ resolved_title }} | {{ site.title }}
     {% else %}
       {{ site.title }}
     {% endif %}
@@ -19,7 +27,7 @@
   {% include navigation.html %}
 
   <header class="site-header">
-    <h1>{{ page.title | default: site.title }}</h1>
+    <h1>{{ resolved_title | default: site.title }}</h1>
   </header>
 
   <main>

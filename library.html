@@ -16,26 +16,31 @@ permalink: /library/
 </div>
 
 
-{% assign sorted_entries = site.entries | sort: "title" %}
+{% assign sorted_items = site.data.library.entries | sort: "order" %}
 
 <section class="library-list">
-  {% for entry in sorted_entries %}
+  {% for item in sorted_items %}
+    {% assign entry = site.entries
+      | where: "entry_id", item.entry_id
+      | first
+    %}
+    {% if entry %}
     <article
         class="library-entry"
         tabindex="0"
-        data-name="{{ entry.title | downcase | escape }}"
-        data-year="{{ entry.sort_year | default: entry.year_experienced | default: 0 }}"
-        data-platform="{{ entry.platform | downcase | escape }}"
+        data-name="{{ item.title | downcase | escape }}"
+        data-year="{{ item.sort_year | default: 0 }}"
+        data-platform="{{ item.platform | downcase | escape }}"
         data-original-position="{{ forloop.index0 }}"
 
-      {% if entry.spine_image %}
+      {% if item.spine_image %}
         style="
           --spine-image:
-            url('{{ entry.spine_image | relative_url }}');
+            url('{{ item.spine_image | relative_url }}');
 
           --expanded-image:
-            url('{{ entry.expanded_image
-              | default: entry.spine_image
+            url('{{ item.expanded_image
+              | default: item.spine_image
               | relative_url }}');
         "
       {% endif %}
@@ -43,7 +48,7 @@ permalink: /library/
       <div class="library-entry-heading">
         <h2>
           <a href="{{ entry.url | relative_url }}">
-            {{ entry.title }}
+            {{ item.title }}
           </a>
         </h2>
 
@@ -54,31 +59,38 @@ permalink: /library/
 
       <div class="library-entry-details">
         <div class="library-entry-details-inner">
-          {% if entry.summary %}
+          {% if item.summary %}
             <p class="entry-summary">
-              {{ entry.summary }}
+              {{ item.summary }}
             </p>
           {% endif %}
 
           <dl class="entry-metadata">
-            {% if entry.media_type %}
+            {% if item.media_type %}
               <div>
                 <dt>Type</dt>
-                <dd>{{ entry.media_type }}</dd>
+                <dd>{{ item.media_type }}</dd>
               </div>
             {% endif %}
 
-            {% if entry.year_experienced %}
+            {% if item.year_experienced %}
               <div>
                 <dt>Experienced</dt>
-                <dd>{{ entry.year_experienced }}</dd>
+                <dd>{{ item.year_experienced }}</dd>
               </div>
             {% endif %}
 
-            {% if entry.platform %}
+            {% if item.platform %}
               <div>
                 <dt>Platform</dt>
-                <dd>{{ entry.platform }}</dd>
+                <dd>{{ item.platform }}</dd>
+              </div>
+            {% endif %}
+
+            {% if item.status %}
+              <div>
+                <dt>Status</dt>
+                <dd>{{ item.status }}</dd>
               </div>
             {% endif %}
           </dl>
@@ -92,6 +104,7 @@ permalink: /library/
         </div>
       </div>
     </article>
+    {% endif %}
   {% else %}
     <p>No entries have been published yet.</p>
   {% endfor %}

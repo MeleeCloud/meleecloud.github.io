@@ -6,7 +6,7 @@ collections:
     output: true
     permalink: /entries/:name/
 
-    topics:
+  topics:
     output: true
     permalink: /entries/:entry/:slug/
 
@@ -21,3 +21,9 @@ defaults:
       type: entries
     values:
       layout: entry
+
+  - scope:
+      path: ""
+      type: topics
+    values:
+      layout: topic

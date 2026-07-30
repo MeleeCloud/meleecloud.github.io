@@ -1,0 +1,79 @@
+backend:
+  name: git-gateway
+  branch: main
+
+publish_mode: editorial_workflow
+
+site_url: https://meleecloud.github.io
+display_url: https://meleecloud.github.io
+
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: "library_settings"
+    label: "Library Catalog"
+    files:
+      - name: "library"
+        label: "All Library Entries"
+        file: "_data/library.yml"
+        fields:
+          - label: "Entries"
+            name: "entries"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Entry ID", name: "entry_id", widget: "string", hint: "Use lowercase words separated by hyphens. It must match the entry Markdown file." }
+              - { label: "Type", name: "media_type", widget: "string", required: false }
+              - { label: "Platform", name: "platform", widget: "string", required: false }
+              - { label: "Year Experienced", name: "year_experienced", widget: "string", required: false }
+              - { label: "Sorting Year", name: "sort_year", widget: "number", value_type: "int", required: false }
+              - { label: "Status", name: "status", widget: "string", required: false }
+              - { label: "Summary", name: "summary", widget: "text", required: false }
+              - { label: "Featured Order", name: "order", widget: "number", value_type: "int", required: false }
+              - { label: "Spine Image", name: "spine_image", widget: "image", required: false }
+              - { label: "Expanded Image", name: "expanded_image", widget: "image", required: false }
+
+  - name: "entries"
+    label: "Entry Writing"
+    label_singular: "Entry"
+    folder: "_entries"
+    create: true
+    delete: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{fields.entry_id}}"
+    preview_path: "entries/{{fields.entry_id}}"
+    identifier_field: "entry_id"
+    summary: "{{fields.entry_id}}"
+    fields:
+      - label: "Entry ID"
+        name: "entry_id"
+        widget: "string"
+        hint: "Must exactly match an Entry ID in Library Catalog."
+      - label: "Entry"
+        name: "body"
+        widget: "markdown"
+        required: false
+
+  - name: "topics"
+    label: "Entry Topics"
+    label_singular: "Topic"
+    folder: "_topics"
+    create: true
+    delete: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{fields.entry}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Parent Entry ID", name: "entry", widget: "string", hint: "Must match an Entry ID in Library Catalog." }
+      - { label: "Order", name: "order", widget: "number", value_type: "int", required: false }
+      - { label: "Summary", name: "summary", widget: "text", required: false }
+      - { label: "Topic", name: "body", widget: "markdown", required: false }

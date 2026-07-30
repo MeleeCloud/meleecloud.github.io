@@ -6,12 +6,16 @@ layout: default
   | where: "entry_id", page.entry
   | first
 %}
+{% assign parent_metadata = site.data.library.entries
+  | where: "entry_id", page.entry
+  | first
+%}
 
 <article class="topic-page">
   {% if parent_entry %}
     <p class="topic-parent">
       <a href="{{ parent_entry.url | relative_url }}">
-        ← {{ parent_entry.title }}
+        ← {{ parent_metadata.title | default: page.entry }}
       </a>
     </p>
   {% endif %}
