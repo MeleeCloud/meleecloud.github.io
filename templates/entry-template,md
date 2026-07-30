@@ -4,6 +4,7 @@ entry_id:
 media_type: Game
 platform: PC
 year_experienced: 2026
+sort_year:
 status: Completed
 summary: A short optional preview for the Library.
 spine_image:
