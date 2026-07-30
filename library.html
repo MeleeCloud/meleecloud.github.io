@@ -24,7 +24,7 @@ permalink: /library/
         class="library-entry"
         tabindex="0"
         data-name="{{ entry.title | downcase | escape }}"
-        data-year="{{ entry.year_experienced | default: 0 }}"
+        data-year="{{ entry.sort_year | default: entry.year_experienced | default: 0 }}"
         data-platform="{{ entry.platform | downcase | escape }}"
         data-original-position="{{ forloop.index0 }}"
 
