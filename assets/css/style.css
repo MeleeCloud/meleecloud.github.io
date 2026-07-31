@@ -134,7 +134,7 @@ footer {
   background-image: var(--spine-image);
   background-repeat: no-repeat;
   background-size: 70% auto;
-  background-position: center calc(50% + 10px);
+  background-position: center;
   opacity: 1;
   transform: none;
 }
