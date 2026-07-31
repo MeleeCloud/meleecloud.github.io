@@ -12,13 +12,26 @@ entries:
   expanded_image: /assets/images/deltarune/deltarune-background.jpg
 
 
+- title: "Donkey Kong Bananza"
+  entry_id: dk-bananza
+  media_type: "Game"
+  platform: "Nintendo Switch 2"
+  year_experienced: "2025"
+  sort_year: 2025
+  status: "Incomplete (I forgot where I am)"
+  summary: "It's like a rage room, but instead of a hammer it's a controller."
+  order: 77
+  spine_image:
+  expanded_image:
+
+
 - title: "Dragon Quest III HD-2D Remake"
   entry_id: dq3-remake
   media_type: "Game"
   platform: "Nintendo Switch"
   year_experienced: "2025"
   sort_year: 2025
-  status: "Forgot where I'm at."
+  status: "Incomplete (Forgot where I'm at)"
   summary: "So far, no dragons, just pyramids."
   order: 76
   spine_image:
@@ -57,9 +70,22 @@ entries:
   platform: "PC (Steam)"
   year_experienced: "2026"
   sort_year: 2026
-  status: "On pause for now..."
+  status: "Incomplete (On pause for now...)"
   summary: "My favorite Winnie The Pooh game."
   order: 59
+  spine_image:
+  expanded_image:
+
+
+- title: "Persona 5 Royal"
+  entry_id: persona-5-royal
+  media_type: "Game"
+  platform: "Nintendo Switch"
+  year_experienced: "2023-2024"
+  sort_year: 2024
+  status: "Completed"
+  summary: "The worst influence on my impressionable teenage mind."
+  order: 130
   spine_image:
   expanded_image:
 
@@ -72,7 +98,7 @@ entries:
   sort_year: 2025
   status: "Main Story Completed"
   summary: "A surprisingly cozy experience compared to real-life Paris."
-  order: 75
+  order: 68
   spine_image:
   expanded_image:
 
@@ -95,10 +121,36 @@ entries:
   media_type: "Game"
   platform: "Nintendo Switch"
   year_experienced: "2018-2025"
-  sort_year: 2025
+  sort_year: 2019
   status: "100% Completion"
   summary: "One of my favorite games to watch on YouTube."
-  order: 85
+  order: 490
+  spine_image:
+  expanded_image:
+
+
+- title: "Super Mario Party Jamboree"
+  entry_id: mario-party-jamboree
+  media_type: "Game"
+  platform: "Nintendo Switch"
+  year_experienced: "2024-2025"
+  sort_year: 2025
+  status: "Waiting for a time to play again..."
+  summary: "Digital board games aren't as fun when you're playing alone."
+  order: 75
+  spine_image:
+  expanded_image:
+
+
+- title: "Super Monkey Ball: Banana Blitz HD"
+  entry_id: super-monkey-ball-banana-blitz-hd
+  media_type: "Game"
+  platform: "Nintendo Switch"
+  year_experienced: "2026"
+  sort_year: 2026
+  status: "Waiting for when I'm bored."
+  summary: "It's a shame I don't drink, because this would be hilarious to play."
+  order: 30
   spine_image:
   expanded_image:
 
@@ -108,10 +160,10 @@ entries:
   media_type: "Game"
   platform: "Nintendo Switch, Nintendo Switch 2"
   year_experienced: "2018-2026"
-  sort_year: 2024
+  sort_year: 2018
   status: "Playing it every now and then..."
   summary: "My most played game of all time."
-  order: 140
+  order: 500
   spine_image:
   expanded_image:
 
@@ -124,7 +176,7 @@ entries:
   sort_year: 2025
   status: "Base Game Completed"
   summary: "Took way too long for me to actually beat on my own."
-  order: 78
+  order: 70
   spine_image:
   expanded_image:
 
@@ -147,15 +199,25 @@ entries:
   media_type: "Game"
   platform: "Nintendo Switch, Nintendo Switch 2"
   year_experienced: "2023, 2025"
-  sort_year: 2025
+  sort_year: 2023
   status: "Main Story Completed"
   summary: "Hoverbikes are so stupid..."
-  order: 90
+  order: 300
   spine_image:
   expanded_image:
 
 
-
+- title: "Xenoblade Chronicles: Definitive Edition"
+  entry_id: xenoblade-definitive
+  media_type: "Game"
+  platform: "Nintendo Switch"
+  year_experienced: "2020-2021"
+  sort_year: 2021
+  status: "Main Story Completed"
+  summary: "An uninteresting and grindy combat system with a side of incredible story."
+  order: 420
+  spine_image:
+  expanded_image:
 
 
 
