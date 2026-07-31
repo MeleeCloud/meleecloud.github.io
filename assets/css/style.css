@@ -120,6 +120,7 @@ footer {
   position: absolute;
   inset: 0;
   z-index: -2;
+  clip-path: inset(0 round 0.75rem);
 
   background-position: center;
   background-repeat: no-repeat;
