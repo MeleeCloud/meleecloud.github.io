@@ -95,7 +95,7 @@ footer {
   isolation: isolate;
   min-height: 7rem;
   padding: 0 1.25rem;
-  overflow: hidden;
+  overflow: visible;
 
   color: var(--entry-text);
   background-color: var(--entry-background);
@@ -194,6 +194,87 @@ footer {
   letter-spacing: 0.08em;
 }
 
+
+
+
+/* Platform icons */
+
+.platform-icons {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  right: 0.75rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+
+  transform: translateY(-50%);
+  transition:
+    right 350ms ease,
+    transform 350ms cubic-bezier(0.2, 1.4, 0.4, 1);
+}
+
+.platform-icon {
+  display: grid;
+  place-items: center;
+
+  width: 2.6rem;
+  height: 2.6rem;
+
+  color: white;
+  background: #555;
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  border-radius: 0.55rem;
+  box-shadow: 0 0.3rem 0.75rem rgba(0, 0, 0, 0.3);
+
+  font-size: 0.72rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+
+/* Bright placeholder colors for each platform. */
+
+.platform-icon--switch {
+  background: #e60012;
+}
+
+.platform-icon--switch-2 {
+  background: #6f42c1;
+}
+
+.platform-icon--ds {
+  background: #1687d9;
+}
+
+.platform-icon--wii-u {
+  background: #00a4e4;
+}
+
+.platform-icon--steam {
+  background: #173b57;
+}
+
+.platform-icon--unknown {
+  background: #666;
+}
+
+/*
+  When the entry expands, move the icons through its right edge.
+  The spring-like timing gives them a small popping motion.
+*/
+
+.library-entry:hover .platform-icons,
+.library-entry:focus .platform-icons,
+.library-entry:focus-within .platform-icons {
+  right: 0;
+  transform: translate(65%, -50%);
+}
+
+
+
+
 /* Hidden information */
 
 .library-entry-details {
@@ -291,7 +372,8 @@ footer {
   .library-entry,
   .library-entry::before,
   .library-entry::after,
-  .library-entry-details {
+  .library-entry-details,
+  .platform-icons {
     transition: none;
   }
 }
