@@ -206,7 +206,7 @@ footer {
   right: 0.75rem;
 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 0.4rem;
 
   transform: translateY(-50%);
@@ -219,8 +219,8 @@ footer {
   display: grid;
   place-items: center;
 
-  width: 2.6rem;
-  height: 2.6rem;
+  width: 5.25rem;
+  height: 5.25rem;
 
   color: white;
   background: #555;
@@ -228,7 +228,7 @@ footer {
   border-radius: 0.55rem;
   box-shadow: 0 0.3rem 0.75rem rgba(0, 0, 0, 0.3);
 
-  font-size: 0.72rem;
+  font-size: 1rem;
   font-weight: 800;
   line-height: 1;
   letter-spacing: 0.03em;
@@ -269,6 +269,7 @@ footer {
 .library-entry:focus .platform-icons,
 .library-entry:focus-within .platform-icons {
   right: 0;
+  flex-direction: column;
   transform: translate(65%, -50%);
 }
 
