@@ -21,8 +21,8 @@ entries:
   status: "Waiting for the next chapter..."
   summary: "Apparently, bullet hells aren't so bad after all."
   order: 20
-  spine_image: /assets/images/deltarune/deltarune-spine.jpg
-  expanded_image: /assets/images/deltarune/deltarune-background.jpg
+  spine_image: /assets/images/deltarune-spine.jpg
+  expanded_image: /assets/images/deltarune-background.jpg
 
 
 - title: "Donkey Kong Bananza"
@@ -99,8 +99,8 @@ entries:
   status: "Main Story Completed"
   summary: "May your heart be your guiding key..."
   order: 60
-  spine_image: /assets/images/kingdom-hearts/kingdom-hearts-spine.png
-  expanded_image: /assets/images/kingdom-hearts/kingdom-hearts-background.jpg
+  spine_image: /assets/images/kingdom-hearts-spine.png
+  expanded_image: /assets/images/kingdom-hearts-background.jpg
 
 
 - title: "Kingdom Hearts 2"
