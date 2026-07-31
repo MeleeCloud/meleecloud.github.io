@@ -11,6 +11,20 @@ entries:
   spine_image: /assets/images/deltarune/deltarune-spine.jpg
   expanded_image: /assets/images/deltarune/deltarune-background.jpg
 
+
+- title: "Dragon Quest III HD-2D Remake"
+  entry_id: dq3-remake
+  media_type: "Game"
+  platform: "Nintendo Switch"
+  year_experienced: "2025"
+  sort_year: 2025
+  status: "Forgot where I'm at."
+  summary: "So far, no dragons, just pyramids."
+  order: 76
+  spine_image:
+  expanded_image:
+
+
 - title: "Final Fantasy X"
   entry_id: final-fantasy-x
   media_type: "Game"
@@ -22,6 +36,7 @@ entries:
   order: 40
   spine_image:
   expanded_image:
+
 
 - title: "Kingdom Hearts"
   entry_id: kingdom-hearts
@@ -35,6 +50,7 @@ entries:
   spine_image: /assets/images/kingdom-hearts/kingdom-hearts-spine.png
   expanded_image: /assets/images/kingdom-hearts/kingdom-hearts-background.jpg
 
+
 - title: "Kingdom Hearts 2"
   entry_id: kingdom-hearts-2
   media_type: "Game"
@@ -46,6 +62,20 @@ entries:
   order: 59
   spine_image:
   expanded_image:
+
+
+- title: "Pokemon Legends: Z-A"
+  entry_id: pokemon-legends-za
+  media_type: "Game"
+  platform: "Nintendo Switch 2"
+  year_experienced: "2025"
+  sort_year: 2025
+  status: "Main Story Completed"
+  summary: "A surprisingly cozy experience compared to real-life Paris."
+  order: 75
+  spine_image:
+  expanded_image:
+
 
 - title: "Pokemon HeartGold and SoulSilver"
   entry_id: pokemon-hgss
@@ -59,6 +89,46 @@ entries:
   spine_image:
   expanded_image:
 
+
+- title: "Super Mario Odyssey"
+  entry_id: super-mario-odyssey
+  media_type: "Game"
+  platform: "Nintendo Switch"
+  year_experienced: "2018-2025"
+  sort_year: 2025
+  status: "100% Completion"
+  summary: "One of my favorite games to watch on YouTube."
+  order: 85
+  spine_image:
+  expanded_image:
+
+
+- title: "Super Smash Bros. Ultimate"
+  entry_id: ssbu
+  media_type: "Game"
+  platform: "Nintendo Switch, Nintendo Switch 2"
+  year_experienced: "2018-2026"
+  sort_year: 2024
+  status: "Playing it every now and then..."
+  summary: "My most played game of all time."
+  order: 140
+  spine_image:
+  expanded_image:
+
+
+- title: "Terraria"
+  entry_id: terraria
+  media_type: "Game"
+  platform: "PC (Steam)"
+  year_experienced: "2021, 2022, 2024, 2025"
+  sort_year: 2025
+  status: "Base Game Completed"
+  summary: "Took way too long for me to actually beat on my own."
+  order: 78
+  spine_image:
+  expanded_image:
+
+
 - title: "The Legend of Zelda: Breath of the Wild"
   entry_id: zelda-botw
   media_type: "Game"
@@ -71,6 +141,25 @@ entries:
   spine_image:
   expanded_image:
 
+
+- title: "The Legend of Zelda: Tears of the Kingdom"
+  entry_id: zelda-totk
+  media_type: "Game"
+  platform: "Nintendo Switch, Nintendo Switch 2"
+  year_experienced: "2023, 2025"
+  sort_year: 2025
+  status: "Main Story Completed"
+  summary: "Hoverbikes are so stupid..."
+  order: 90
+  spine_image:
+  expanded_image:
+
+
+
+
+
+
+
 - title: "Automation Test"
   entry_id: automation-test
   media_type: "Game"
@@ -79,6 +168,6 @@ entries:
   sort_year: 2026
   status: "Planned"
   summary: "Testing automatic entry creation."
-  order: 1
+  order: 1000
   spine_image:
   expanded_image:
