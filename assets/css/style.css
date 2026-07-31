@@ -207,7 +207,8 @@ footer {
 
   display: flex;
   flex-direction: row;
-  gap: 0.4rem;
+  align-items: center;
+  gap: 0.5rem;
 
   transform: translateY(-50%);
   transition:
@@ -217,15 +218,17 @@ footer {
 
 .platform-icon {
   display: grid;
+  flex: 0 0 5.25rem;
   place-items: center;
 
   width: 5.25rem;
   height: 5.25rem;
+  box-sizing: border-box;
 
   color: white;
   background: #555;
   border: 2px solid rgba(255, 255, 255, 0.85);
-  border-radius: 0.55rem;
+  border-radius: 0.65rem;
   box-shadow: 0 0.3rem 0.75rem rgba(0, 0, 0, 0.3);
 
   font-size: 1rem;
@@ -233,8 +236,6 @@ footer {
   line-height: 1;
   letter-spacing: 0.03em;
 }
-
-/* Bright placeholder colors for each platform. */
 
 .platform-icon--switch {
   background: #e60012;
@@ -256,14 +257,19 @@ footer {
   background: #173b57;
 }
 
+.platform-icon--epic {
+  background: #292929;
+}
+
+.platform-icon--pc {
+  background: #347a46;
+}
+
 .platform-icon--unknown {
   background: #666;
 }
 
-/*
-  When the entry expands, move the icons through its right edge.
-  The spring-like timing gives them a small popping motion.
-*/
+/* Expanded entry */
 
 .library-entry:hover .platform-icons,
 .library-entry:focus .platform-icons,
