@@ -1,4 +1,17 @@
 entries:
+- title: "Animal Crossing: New Horizons"
+  entry_id: animal-crossing-new-horizons
+  media_type: "Game"
+  platform: "Nintendo Switch, Nintendo Switch 2"
+  year_experienced: "2020"
+  sort_year: 2020
+  status: "Planned"
+  summary: "Dad's favorite video game of all time, apparently."
+  order: 450
+  spine_image:
+  expanded_image:
+
+
 - title: "DELTARUNE"
   entry_id: deltarune
   media_type: "Game"
@@ -51,6 +64,32 @@ entries:
   expanded_image:
 
 
+- title: "Fire Emblem: Three Houses"
+  entry_id: fire-emblem-three-houses
+  media_type: "Game"
+  platform: "Nintendo Switch"
+  year_experienced: "2020"
+  sort_year: 2020
+  status: "Only one route completed"
+  summary: "If chess was a jrpg and also a Persona game."
+  order: 430
+  spine_image:
+  expanded_image:
+
+
+- title: "It Takes Two"
+  entry_id: it-takes-two
+  media_type: "Game"
+  platform: "Nintendo Switch"
+  year_experienced: "2023"
+  sort_year: 2023
+  status: "Completed"
+  summary: "Way more fun to play with siblings than a partner."
+  order: 150
+  spine_image:
+  expanded_image:
+
+
 - title: "Kingdom Hearts"
   entry_id: kingdom-hearts
   media_type: "Game"
@@ -77,6 +116,32 @@ entries:
   expanded_image:
 
 
+- title: "Mario Kart 8 Deluxe"
+  entry_id: mario-kart-8-deluxe
+  media_type: "Game"
+  platform: "Nintendo Switch"
+  year_experienced: "2025"
+  sort_year: 2025
+  status: "Waiting for this to be relevant to play again."
+  summary: "I only bought it (and the DLC) for my sister's grad party."
+  order: 79
+  spine_image:
+  expanded_image:
+
+
+- title: "Mario Kart World"
+  entry_id: mario-kart-world
+  media_type: "Game"
+  platform: "Nintendo Switch 2"
+  year_experienced: "2025"
+  sort_year: 2025
+  status: "Waiting for the next party to play with."
+  summary: "I'm glad I bought the bundle before the price hike."
+  order: 110
+  spine_image:
+  expanded_image:
+
+
 - title: "Persona 5 Royal"
   entry_id: persona-5-royal
   media_type: "Game"
@@ -90,7 +155,20 @@ entries:
   expanded_image:
 
 
-- title: "Pokemon Legends: Z-A"
+- title: "Pokémon Legends: Arceus"
+  entry_id: pokemon-legends-arceus
+  media_type: "Game"
+  platform: "Nintendo Switch"
+  year_experienced: "2022"
+  sort_year: 2022
+  status: "First Gym Completed (Professor Oak Challenge)"
+  summary: "Another boring challenge left on hold..."
+  order: 390
+  spine_image:
+  expanded_image:
+
+
+- title: "Pokémon Legends: Z-A"
   entry_id: pokemon-legends-za
   media_type: "Game"
   platform: "Nintendo Switch 2"
@@ -103,7 +181,7 @@ entries:
   expanded_image:
 
 
-- title: "Pokemon HeartGold and SoulSilver"
+- title: "Pokémon HeartGold and SoulSilver"
   entry_id: pokemon-hgss
   media_type: "Game"
   platform: "Nintendo DS"
@@ -112,6 +190,71 @@ entries:
   status: "Completed - Regional Living Dex"
   summary: "The most cherished game of my childhood."
   order: 80
+  spine_image:
+  expanded_image:
+
+
+- title: "Pokémon Pokopia"
+  entry_id: pokemon-pokopia
+  media_type: "Game"
+  platform: "Nintendo Switch 2"
+  year_experienced: "2026"
+  sort_year: 2026
+  status: "Taking a break"
+  summary: "Let's get this place HUMID!"
+  order: 52
+  spine_image:
+  expanded_image:
+
+
+- title: "Pokémon Shield"
+  entry_id: pokemon-shield
+  media_type: "Game"
+  platform: "Nintendo Switch"
+  year_experienced: "2025"
+  sort_year: 2025
+  status: "Not even close to beating the first gym (Professor Oak Challenge)"
+  summary: "Why do I do this to myself"
+  order: 200
+  spine_image:
+  expanded_image:
+
+
+- title: "Pokémon Shining Pearl"
+  entry_id: pokemon-shining-pearl
+  media_type: "Game"
+  platform: "Nintendo Switch"
+  year_experienced: "2024"
+  sort_year: 2024
+  status: "First Gym Completed (Professor Oak Challenge)"
+  summary: "Another boring challenge left on hold..."
+  order: 200
+  spine_image:
+  expanded_image:
+
+
+- title: "Pokémon Violet"
+  entry_id: pokemon-violet
+  media_type: "Game"
+  platform: "Nintendo Switch, Nintendo Switch 2"
+  year_experienced: "2022"
+  sort_year: 2022
+  status: "Main Story Completed"
+  summary: "The laggiest and longest Pokemon experience ever."
+  order: 360
+  spine_image:
+  expanded_image:
+
+
+- title: "Super Mario Bros. U Deluxe"
+  entry_id: super-mario-bros-u-deluxe
+  media_type: "Game"
+  platform: "Nintendo Switch"
+  year_experienced: "2019"
+  sort_year: 2019
+  status: "Main Game Completed"
+  summary: "Two easy mode characters makes the coin collecting trivial."
+  order: 480
   spine_image:
   expanded_image:
 
@@ -214,12 +357,23 @@ entries:
   year_experienced: "2020-2021"
   sort_year: 2021
   status: "Main Story Completed"
-  summary: "An uninteresting and grindy combat system with a side of incredible story."
+  summary: "A complicated and grindy combat system with a side of incredible story."
   order: 420
   spine_image:
   expanded_image:
 
 
+- title: "Xenoblade Chronicles X: Definitive Edition"
+  entry_id: xenoblade-x-definitive
+  media_type: "Game"
+  platform: "Nintendo Switch 2"
+  year_experienced: "2026"
+  sort_year: 2026
+  status: "Barely started"
+  summary: "Bought it off a whim."
+  order: 62
+  spine_image:
+  expanded_image:
 
 
 - title: "Automation Test"
