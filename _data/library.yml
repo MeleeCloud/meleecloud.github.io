@@ -3,11 +3,11 @@ entries:
   entry_id: deltarune
   media_type: Game
   platform: Nintendo Switch 2
-  year_experienced: "2018, 2026"
+  year_experienced: "2018, 2025, 2026"
   sort_year: 2026
   status: Waiting for the next chapter...
   summary: Apparently, bullet hells aren't so bad after all.
-  order: 10
+  order: 20
   spine_image: /assets/images/deltarune/deltarune-spine.jpg
   expanded_image: /assets/images/deltarune/deltarune-background.jpg
 
@@ -19,7 +19,7 @@ entries:
   sort_year: 2026
   status: Ongoing
   summary: Reminding me why I hate random encounters...
-  order: 20
+  order: 40
   spine_image:
   expanded_image:
 
@@ -31,9 +31,21 @@ entries:
   sort_year: 2026
   status: Main Story Completed
   summary: May your heart be your guiding key...
-  order: 30
+  order: 60
   spine_image: /assets/images/kingdom-hearts/kingdom-hearts-spine.png
   expanded_image: /assets/images/kingdom-hearts/kingdom-hearts-background.jpg
+
+- title: Kingdom Hearts 2
+  entry_id: kingdom-hearts-2
+  media_type: Game
+  platform: PC (Steam)
+  year_experienced: "2026"
+  sort_year: 2026
+  status: On pause for now...
+  summary: My favorite Winnie The Pooh game.
+  order: 59
+  spine_image:
+  expanded_image:
 
 - title: Pokemon HeartGold and SoulSilver
   entry_id: pokemon-hgss
@@ -42,8 +54,20 @@ entries:
   year_experienced: "2015-2025"
   sort_year: 2025
   status: Completed - Regional Living Dex
-  summary: The most cherished game in my memories.
-  order: 40
+  summary: The most cherished game of my childhood.
+  order: 80
+  spine_image:
+  expanded_image:
+
+- title: The Legend of Zelda: Breath of the Wild
+  entry_id: zelda-botw
+  media_type: Game
+  platform: Wii U, Nintendo Switch, Nintendo Switch 2
+  year_experienced: "2018-2026"
+  sort_year: 2026
+  status: 100% Completion
+  summary: One of the greatest gaming experiences of my whole life.
+  order: 50
   spine_image:
   expanded_image:
 
@@ -55,3 +79,20 @@ entries:
   sort_year: 2026
   status: Planned
   summary: Testing automatic entry creation.
+  order: 
+  spine_image:
+  expanded_image:
+
+{% comment %}
+- title: Automation Test
+  entry_id: automation-test
+  media_type: Game
+  platform: PC
+  year_experienced: "2026"
+  sort_year: 2026
+  status: Planned
+  summary: Testing automatic entry creation.
+  order: 
+  spine_image:
+  expanded_image:
+{% endcomment %}
