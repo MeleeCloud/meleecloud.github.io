@@ -79,6 +79,6 @@ entries:
   sort_year: 2026
   status: Planned
   summary: Testing automatic entry creation.
-  order: 
+  order: 1
   spine_image:
   expanded_image:
