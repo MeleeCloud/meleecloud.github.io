@@ -1,84 +1,84 @@
 entries:
-- title: DELTARUNE
+- title: "DELTARUNE"
   entry_id: deltarune
-  media_type: Game
-  platform: Nintendo Switch 2
+  media_type: "Game"
+  platform: "Nintendo Switch 2"
   year_experienced: "2018, 2025, 2026"
   sort_year: 2026
-  status: Waiting for the next chapter...
-  summary: Apparently, bullet hells aren't so bad after all.
+  status: "Waiting for the next chapter..."
+  summary: "Apparently, bullet hells aren't so bad after all."
   order: 20
   spine_image: /assets/images/deltarune/deltarune-spine.jpg
   expanded_image: /assets/images/deltarune/deltarune-background.jpg
 
-- title: Final Fantasy X
+- title: "Final Fantasy X"
   entry_id: final-fantasy-x
-  media_type: Game
-  platform: Nintendo Switch
+  media_type: "Game"
+  platform: "Nintendo Switch"
   year_experienced: "2024, 2026"
   sort_year: 2026
-  status: Ongoing
-  summary: Reminding me why I hate random encounters...
+  status: "Ongoing"
+  summary: "Reminding me why I hate random encounters..."
   order: 40
   spine_image:
   expanded_image:
 
-- title: Kingdom Hearts
+- title: "Kingdom Hearts"
   entry_id: kingdom-hearts
-  media_type: Game
-  platform: PC (Steam)
+  media_type: "Game"
+  platform: "PC (Steam)"
   year_experienced: "2026"
   sort_year: 2026
-  status: Main Story Completed
-  summary: May your heart be your guiding key...
+  status: "Main Story Completed"
+  summary: "May your heart be your guiding key..."
   order: 60
   spine_image: /assets/images/kingdom-hearts/kingdom-hearts-spine.png
   expanded_image: /assets/images/kingdom-hearts/kingdom-hearts-background.jpg
 
-- title: Kingdom Hearts 2
+- title: "Kingdom Hearts 2"
   entry_id: kingdom-hearts-2
-  media_type: Game
-  platform: PC (Steam)
+  media_type: "Game"
+  platform: "PC (Steam)"
   year_experienced: "2026"
   sort_year: 2026
-  status: On pause for now...
-  summary: My favorite Winnie The Pooh game.
+  status: "On pause for now..."
+  summary: "My favorite Winnie The Pooh game."
   order: 59
   spine_image:
   expanded_image:
 
-- title: Pokemon HeartGold and SoulSilver
+- title: "Pokemon HeartGold and SoulSilver"
   entry_id: pokemon-hgss
-  media_type: Game
-  platform: Nintendo DS
+  media_type: "Game"
+  platform: "Nintendo DS"
   year_experienced: "2015-2025"
   sort_year: 2025
-  status: Completed - Regional Living Dex
-  summary: The most cherished game of my childhood.
+  status: "Completed - Regional Living Dex"
+  summary: "The most cherished game of my childhood."
   order: 80
   spine_image:
   expanded_image:
 
-- title: The Legend of Zelda: Breath of the Wild
+- title: "The Legend of Zelda: Breath of the Wild"
   entry_id: zelda-botw
-  media_type: Game
-  platform: Wii U, Nintendo Switch, Nintendo Switch 2
+  media_type: "Game"
+  platform: "Wii U, Nintendo Switch, Nintendo Switch 2"
   year_experienced: "2018-2026"
   sort_year: 2026
-  status: 100% Completion
-  summary: One of the greatest gaming experiences of my whole life.
+  status: "100% Completion"
+  summary: "One of the greatest gaming experiences of my whole life."
   order: 50
   spine_image:
   expanded_image:
 
-- title: Automation Test
+- title: "Automation Test"
   entry_id: automation-test
-  media_type: Game
-  platform: PC
+  media_type: "Game"
+  platform: "PC"
   year_experienced: "2026"
   sort_year: 2026
-  status: Planned
-  summary: Testing automatic entry creation.
+  status: "Planned"
+  summary: "Testing automatic entry creation."
   order: 1
   spine_image:
   expanded_image:
