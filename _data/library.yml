@@ -82,17 +82,3 @@ entries:
   order: 
   spine_image:
   expanded_image:
-
-{% comment %}
-- title: Automation Test
-  entry_id: automation-test
-  media_type: Game
-  platform: PC
-  year_experienced: "2026"
-  sort_year: 2026
-  status: Planned
-  summary: Testing automatic entry creation.
-  order: 
-  spine_image:
-  expanded_image:
-{% endcomment %}
