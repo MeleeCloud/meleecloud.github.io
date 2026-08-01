@@ -93,6 +93,8 @@ footer {
 
   position: relative;
   isolation: isolate;
+
+  height: 7rem;
   min-height: 7rem;
   padding: 0 1.25rem;
   overflow: visible;
@@ -103,7 +105,7 @@ footer {
   border-radius: 0.75rem;
 
   transition:
-    min-height 350ms ease,
+    height 350ms ease,
     padding 350ms ease,
     transform 200ms ease,
     box-shadow 350ms ease;
@@ -121,28 +123,29 @@ footer {
   inset: 0;
   z-index: -2;
 
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  border-radius: inherit;
+  pointer-events: none;
 
-  transition:
-    opacity 400ms ease,
-    transform 500ms ease;
+  transition: opacity 400ms ease;
 }
+
+/* Collapsed spine image */
 
 .library-entry::before {
   background-image: var(--spine-image);
-  background-repeat: no-repeat;
-  background-size: var(--spine-size, 40%) auto;
-  background-position: center;
+  background-size: var(--spine-size, 70%) auto;
+  background-position: var(--spine-position, center);
   opacity: 1;
-  transform: none;
 }
+
+/* Expanded background image */
 
 .library-entry::after {
   background-image: var(--expanded-image);
+  background-size: cover;
+  background-position: var(--expanded-position, center);
   opacity: 0;
-  transform: translateY(30px) scale(1);
 }
 
 /* Dark overlay keeps text readable over future images. */
@@ -359,10 +362,11 @@ footer {
 .library-entry:hover,
 .library-entry:focus,
 .library-entry:focus-within {
-  min-height: 23rem;
+  height: clamp(20rem, 50vw, 28rem);
+  min-height: 20rem;
   padding-bottom: 1.5rem;
-  transform: translateY(-2px);
 
+  transform: translateY(-2px);
   box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.22);
   outline: none;
 }
@@ -390,7 +394,6 @@ footer {
 .library-entry:focus::after,
 .library-entry:focus-within::after {
   opacity: 1;
-  transform: scale(1);
 }
 
 
@@ -442,5 +445,30 @@ footer {
 
   .library-controls select {
     width: 100%;
+  }
+}
+
+
+
+
+@media (max-width: 700px) {
+  .library-entry {
+    height: 6rem;
+    min-height: 6rem;
+  }
+
+  .library-entry-heading {
+    min-height: 6rem;
+  }
+
+  .library-entry:hover,
+  .library-entry:focus,
+  .library-entry:focus-within {
+    height: clamp(18rem, 90vw, 24rem);
+    min-height: 18rem;
+  }
+
+  .library-entry::after {
+    background-position: var(--expanded-position-mobile, center);
   }
 }
