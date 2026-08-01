@@ -60,7 +60,7 @@ entries:
   status: "Ongoing"
   summary: "Reminding me why I hate random encounters..."
   order: 40
-  spine_image: /assets/images/final-fantasy-x-spine.jpg
+  spine_image: /assets/images/final-fantasy-x-spine.png
   expanded_image: /assets/images/final-fantasy-x-background.jpg
 
 
@@ -333,7 +333,7 @@ entries:
   status: "Waiting for when I'm bored."
   summary: "It's a shame I don't drink, because this would be hilarious to play."
   order: 30
-  spine_image: /assets/images/super-monkey-ball-banana-blitz-hd-spine.jpg
+  spine_image: /assets/images/super-monkey-ball-banana-blitz-hd-spine.png
   expanded_image: /assets/images/super-monkey-ball-banana-blitz-hd-background.jpg
 
 
