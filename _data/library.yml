@@ -465,3 +465,6 @@ entries:
   spine_image: /assets/images/placeholder-spine.png
   expanded_image: /assets/images/placeholder-background.png
   spine_size: "50%"
+  spine_position: "center"
+  expanded_position: "center top"
+  expanded_position_mobile: "65% center"
