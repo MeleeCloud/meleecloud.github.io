@@ -133,7 +133,7 @@ footer {
 .library-entry::before {
   background-image: var(--spine-image);
   background-repeat: no-repeat;
-  background-size: var(--spine-size, 70%) auto;
+  background-size: var(--spine-size, 40%) auto;
   background-position: center;
   opacity: 1;
   transform: none;
