@@ -26,22 +26,15 @@ permalink: /library/
     %}
     {% if entry %}
     <article
-        class="library-entry"
-        tabindex="0"
-        data-name="{{ item.title | downcase | escape }}"
-        data-year="{{ item.sort_year | default: 0 }}"
-        data-platform="{{ item.platform | downcase | escape }}"
-        data-original-position="{{ forloop.index0 }}"
-
-      {% if item.spine_image %}
-        style="
-          --spine-image: url('{{ item.spine_image | relative_url }}');
-          --expanded-image: url('{{ item.expanded_image
-              | default: item.spine_image
-              | relative_url }}');
-          --spine-size: {{ item.spine_size | default: "70%" }};
-        "
-      {% endif %}
+      class="library-entry"
+      style="
+        --spine-image: url('{{ item.spine_image | relative_url }}');
+        --expanded-image: url('{{ item.expanded_image | relative_url }}');
+        --spine-size: {{ item.spine_size | default: "70%" }};
+        --spine-position: {{ item.spine_position | default: "center" }};
+        --expanded-position: {{ item.expanded_position | default: "center" }};
+        --expanded-position-mobile: {{ item.expanded_position_mobile | default: "center" }};
+      "
     >
       <div class="library-entry-heading">
         <h2>
