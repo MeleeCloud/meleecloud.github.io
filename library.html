@@ -35,13 +35,11 @@ permalink: /library/
 
       {% if item.spine_image %}
         style="
-          --spine-image:
-            url('{{ item.spine_image | relative_url }}');
-
-          --expanded-image:
-            url('{{ item.expanded_image
+          --spine-image: url('{{ item.spine_image | relative_url }}');
+          --expanded-image: url('{{ item.expanded_image
               | default: item.spine_image
               | relative_url }}');
+          --spine-size: {{ item.spine_size | default: "70%" }};
         "
       {% endif %}
     >
