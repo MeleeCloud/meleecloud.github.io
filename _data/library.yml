@@ -10,6 +10,7 @@ entries:
   order: 450
   spine_image: /assets/images/animal-crossing-new-horizons-spine.png
   expanded_image: /assets/images/animal-crossing-new-horizons-background.jpg
+  spine_size: "40%"
 
 
 - title: "DELTARUNE"
@@ -36,6 +37,7 @@ entries:
   order: 77
   spine_image: /assets/images/donkey-kong-bananza-spine.png
   expanded_image: /assets/images/donkey-kong-bananza-background.jpg
+  spine_size: "50%"
 
 
 - title: "Dragon Quest III HD-2D Remake"
@@ -49,6 +51,7 @@ entries:
   order: 76
   spine_image: /assets/images/dq3-remake-spine.png
   expanded_image: /assets/images/dq3-remake-background.jpg
+  spine_size: "50%"
 
 
 - title: "Final Fantasy X"
@@ -88,6 +91,7 @@ entries:
   order: 150
   spine_image: /assets/images/it-takes-two-spine.png
   expanded_image: /assets/images/it-takes-two-background.jpg
+  spine_size: "30%"
 
 
 - title: "Kingdom Hearts"
@@ -101,6 +105,7 @@ entries:
   order: 60
   spine_image: /assets/images/kingdom-hearts-spine.png
   expanded_image: /assets/images/kingdom-hearts-background.jpg
+  spine_size: "60%"
 
 
 - title: "Kingdom Hearts 2"
@@ -114,6 +119,7 @@ entries:
   order: 59
   spine_image: /assets/images/kingdom-hearts-2-spine.png
   expanded_image: /assets/images/kingdom-hearts-2-background.jpg
+  spine_size: "60%"
 
 
 - title: "Mario Kart 8 Deluxe"
@@ -153,6 +159,7 @@ entries:
   order: 130
   spine_image: /assets/images/persona-5-royal-spine.png
   expanded_image: /assets/images/persona-5-royal-background.jpg
+  spine_size: "50%"
 
 
 - title: "Pokémon Legends: Arceus"
@@ -166,6 +173,7 @@ entries:
   order: 390
   spine_image: /assets/images/pokemon-legends-arceus-spine.png
   expanded_image: /assets/images/pokemon-legends-arceus-background.jpg
+  spine_size: "40%"
 
 
 - title: "Pokémon Legends: Z-A"
@@ -179,6 +187,7 @@ entries:
   order: 68
   spine_image: /assets/images/pokemon-legends-za-spine.png
   expanded_image: /assets/images/pokemon-legends-za-background.jpg
+  spine_size: "40%"
 
 
 - title: "Pokémon HeartGold and SoulSilver"
@@ -205,6 +214,7 @@ entries:
   order: 52
   spine_image: /assets/images/pokemon-pokopia-spine.png
   expanded_image: /assets/images/pokemon-pokopia-background.jpg
+  spine_size: "40%"
 
 
 - title: "Pokémon Shield"
@@ -218,6 +228,7 @@ entries:
   order: 200
   spine_image: /assets/images/pokemon-shield-spine.png
   expanded_image: /assets/images/pokemon-shield-background.jpg
+  spine_size: "30%"
 
 
 - title: "Pokémon Shining Pearl"
@@ -231,6 +242,7 @@ entries:
   order: 200
   spine_image: /assets/images/pokemon-shining-pearl-spine.png
   expanded_image: /assets/images/pokemon-shining-pearl-background.jpg
+  spine_size: "40%"
 
 
 - title: "Pokémon Violet"
@@ -244,6 +256,7 @@ entries:
   order: 360
   spine_image: /assets/images/pokemon-violet-spine.png
   expanded_image: /assets/images/pokemon-violet-background.jpg
+  spine_size: "50%"
 
 
 - title: "Super Mario Bros. U Deluxe"
@@ -257,6 +270,7 @@ entries:
   order: 480
   spine_image: /assets/images/super-mario-bros-u-deluxe-spine.png
   expanded_image: /assets/images/super-mario-bros-u-deluxe-background.jpg
+  spine_size: "25%"
 
 
 - title: "Super Mario Odyssey"
@@ -270,6 +284,7 @@ entries:
   order: 490
   spine_image: /assets/images/super-mario-odyssey-spine.png
   expanded_image: /assets/images/super-mario-odyssey-background.jpg
+  spine_size: "40%"
 
 
 - title: "Super Mario Party Jamboree"
@@ -283,6 +298,7 @@ entries:
   order: 75
   spine_image: /assets/images/mario-party-jamboree-spine.png
   expanded_image: /assets/images/mario-party-jamboree-background.jpg
+  spine_size: "40%"
 
 
 - title: "Super Monkey Ball: Banana Blitz HD"
@@ -296,6 +312,7 @@ entries:
   order: 30
   spine_image: /assets/images/super-monkey-ball-banana-blitz-hd-spine.png
   expanded_image: /assets/images/super-monkey-ball-banana-blitz-hd-background.jpg
+  spine_size: "40%"
 
 
 - title: "Super Smash Bros. Ultimate"
@@ -309,6 +326,7 @@ entries:
   order: 500
   spine_image: /assets/images/ssbu-spine.png
   expanded_image: /assets/images/ssbu-background.jpg
+  spine_size: "60%"
 
 
 - title: "Terraria"
@@ -335,6 +353,7 @@ entries:
   order: 50
   spine_image: /assets/images/zelda-botw-spine.png
   expanded_image: /assets/images/zelda-botw-background.jpg
+  spine_size: "25%"
 
 
 - title: "The Legend of Zelda: Tears of the Kingdom"
@@ -348,6 +367,7 @@ entries:
   order: 300
   spine_image: /assets/images/zelda-totk-spine.png
   expanded_image: /assets/images/zelda-totk-background.jpg
+  spine_size: "25%"
 
 
 - title: "Xenoblade Chronicles: Definitive Edition"
@@ -387,3 +407,4 @@ entries:
   order: 1000
   spine_image: /assets/images/placeholder-spine.png
   expanded_image: /assets/images/placeholder-background.png
+  spine_size: "50%"
