@@ -30,8 +30,6 @@ permalink: /library/
       style="
         --spine-image: url('{{ item.spine_image | relative_url }}');
         --expanded-image: url('{{ item.expanded_image | relative_url }}');
-        --spine-size: {{ item.spine_size | default: "70%" }};
-        --spine-position: {{ item.spine_position | default: "center" }};
         --expanded-position: {{ item.expanded_position | default: "center" }};
         --expanded-position-mobile: {{ item.expanded_position_mobile | default: "center" }};
       "
