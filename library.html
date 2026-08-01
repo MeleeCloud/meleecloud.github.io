@@ -61,26 +61,29 @@ permalink: /library/
       
           {% for platform_name in platforms %}
             {% assign platform = platform_name | strip %}
+            {% assign platform_icon = nil %}
+            {% assign platform_code = nil %}
+            {% assign platform_class = "unknown" %}
       
             {% case platform %}
               {% when "Nintendo Switch 2" %}
-                {% assign platform_code = "NS2" %}
+                {% assign platform_icon = "/assets/images/nintendo-switch-2-icon.png" %}
                 {% assign platform_class = "switch-2" %}
       
               {% when "Nintendo Switch" %}
-                {% assign platform_code = "NS" %}
+                {% assign platform_icon = "/assets/images/nintendo-switch-icon.png" %}
                 {% assign platform_class = "switch" %}
       
               {% when "Nintendo DS" %}
-                {% assign platform_code = "DS" %}
+                {% assign platform_icon = "/assets/images/nintendo-ds-icon.png" %}
                 {% assign platform_class = "ds" %}
       
               {% when "Wii U" %}
-                {% assign platform_code = "WU" %}
+                {% assign platform_icon = "/assets/images/wii-u-icon.png" %}
                 {% assign platform_class = "wii-u" %}
       
               {% when "PC (Steam)" %}
-                {% assign platform_code = "STM" %}
+                {% assign platform_icon = "/assets/images/steam-icon.png" %}
                 {% assign platform_class = "steam" %}
       
               {% when "PC (Epic Games)" %}
@@ -93,7 +96,6 @@ permalink: /library/
       
               {% else %}
                 {% assign platform_code = "?" %}
-                {% assign platform_class = "unknown" %}
             {% endcase %}
       
             <span
@@ -101,7 +103,14 @@ permalink: /library/
               title="{{ platform }}"
               aria-hidden="true"
             >
-              {{ platform_code }}
+              {% if platform_icon %}
+                <img
+                  src="{{ platform_icon | relative_url }}"
+                  alt=""
+                >
+              {% else %}
+                {{ platform_code }}
+              {% endif %}
             </span>
           {% endfor %}
         </div>
