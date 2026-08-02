@@ -82,7 +82,7 @@ footer {
 
 .library-list {
   display: grid;
-  gap: 0.75rem;
+  gap: 3px;
 }
 
 /* Collapsed entry */
@@ -94,9 +94,14 @@ footer {
   position: relative;
   isolation: isolate;
 
-  height: 7rem;
-  min-height: 7rem;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  aspect-ratio: 16 / 4;
+  box-sizing: border-box;
+
   padding: 0 1.25rem;
+  margin-bottom: 0;
   overflow: visible;
 
   color: var(--entry-text);
@@ -364,6 +369,7 @@ footer {
 .library-entry:focus-within {
   height: clamp(20rem, 50vw, 28rem);
   min-height: 20rem;
+  aspect-ratio: auto;
   padding-bottom: 1.5rem;
 
   transform: translateY(-2px);
@@ -453,12 +459,14 @@ footer {
 
 @media (max-width: 700px) {
   .library-entry {
-    height: 6rem;
-    min-height: 6rem;
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    aspect-ratio: 16 / 4;
   }
 
   .library-entry-heading {
-    min-height: 6rem;
+    min-height: 100%;
   }
 
   .library-entry:hover,
@@ -466,6 +474,7 @@ footer {
   .library-entry:focus-within {
     height: clamp(18rem, 90vw, 24rem);
     min-height: 18rem;
+    aspect-ratio: auto;
   }
 
   .library-entry::after {
