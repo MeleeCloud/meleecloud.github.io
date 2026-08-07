@@ -35,21 +35,21 @@ Fast track to the summer of 2025: I had long wished to leave behind that past, u
 
 <div class="youtube-grid">
   <iframe
-    src="https://www.youtube-nocookie.com/embed/watch?v=EDAu7AbGVII&pp=0gcJCb4LAYcqIYzv"
+    src="https://www.youtube-nocookie.com/embed/EDAu7AbGVII&pp=0gcJCb4LAYcqIYzv"
     title="playing deltarune out of spite [DELTARUNE]"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
   </iframe>
 
   <iframe
-    src="https://www.youtube-nocookie.com/embed/watch?v=cWhsmlg0xBE&t=16s"
+    src="https://www.youtube-nocookie.com/embed/cWhsmlg0xBE&t=16s"
     title="maybe this game is fun after all [DELTARUNE]"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
   </iframe>
 
   <iframe
-    src="https://www.youtube-nocookie.com/embed/watch?v=yVHzW6t5aQA"
+    src="https://www.youtube-nocookie.com/embed/yVHzW6t5aQA"
     title="the end of balatro [DELTARUNE]"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
