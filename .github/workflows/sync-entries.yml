@@ -1,22 +1,23 @@
-name: Create missing entry files
+name: Sync library
 
 on:
   push:
     branches:
       - main
     paths:
+      - "library-order.txt"
       - "_data/library.yml"
       - "templates/entry-template.md"
+      - ".github/scripts/sync_library_order.rb"
       - ".github/scripts/sync_entries.rb"
       - ".github/workflows/sync-entries.yml"
-
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  sync-entries:
+  sync-library:
     runs-on: ubuntu-latest
 
     steps:
@@ -28,20 +29,23 @@ jobs:
         with:
           ruby-version: "3.3"
 
+      - name: Update library order
+        run: ruby .github/scripts/sync_library_order.rb
+
       - name: Create missing entry files
         run: ruby .github/scripts/sync_entries.rb
 
-      - name: Commit created files
+      - name: Commit automatic changes
         run: |
-          git add _entries
+          git add library-order.txt _data/library.yml _entries
 
           if git diff --cached --quiet; then
-            echo "No new entry files were created."
+            echo "No library changes were needed."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git commit -m "Create missing library entry files"
+          git commit -m "Sync library order and entry files"
           git push
