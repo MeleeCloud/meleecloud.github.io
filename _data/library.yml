@@ -7,7 +7,7 @@ entries:
   sort_year: 2020
   status: "Planned"
   summary: "Dad's favorite video game of all time, apparently."
-  order: 450
+  order: 300
   spine_image: /assets/images/animal-crossing-new-horizons-spine.png
   expanded_image: /assets/images/animal-crossing-new-horizons-background.jpg
 
@@ -20,7 +20,7 @@ entries:
   sort_year: 2026
   status: "Waiting for the next chapter..."
   summary: "Apparently, bullet hells aren't so bad after all."
-  order: 20
+  order: 10
   spine_image: /assets/images/deltarune-spine.png
   expanded_image: /assets/images/deltarune-background.jpg
 
@@ -33,7 +33,7 @@ entries:
   sort_year: 2025
   status: "Incomplete (I forgot where I am)"
   summary: "It's like a rage room, but instead of a hammer it's a controller."
-  order: 77
+  order: 130
   spine_image: /assets/images/donkey-kong-bananza-spine.png
   expanded_image: /assets/images/donkey-kong-bananza-background.jpg
 
@@ -46,7 +46,7 @@ entries:
   sort_year: 2025
   status: "Incomplete (Forgot where I'm at)"
   summary: "So far, no dragons, just pyramids."
-  order: 76
+  order: 120
   spine_image: /assets/images/dq3-remake-spine.png
   expanded_image: /assets/images/dq3-remake-background.jpg
 
@@ -59,7 +59,7 @@ entries:
   sort_year: 2026
   status: "Ongoing"
   summary: "Reminding me why I hate random encounters..."
-  order: 40
+  order: 30
   spine_image: /assets/images/final-fantasy-x-spine.png
   expanded_image: /assets/images/final-fantasy-x-background.jpg
 
@@ -72,7 +72,7 @@ entries:
   sort_year: 2020
   status: "Only one route completed"
   summary: "If chess was a jrpg and also a Persona game."
-  order: 430
+  order: 280
   spine_image: /assets/images/fire-emblem-three-houses-spine.png
   expanded_image: /assets/images/fire-emblem-three-houses-background.jpg
 
@@ -85,7 +85,7 @@ entries:
   sort_year: 2023
   status: "Completed"
   summary: "Way more fun to play with siblings than a partner."
-  order: 150
+  order: 180
   spine_image: /assets/images/it-takes-two-spine.png
   expanded_image: /assets/images/it-takes-two-background.jpg
 
@@ -98,7 +98,7 @@ entries:
   sort_year: 2026
   status: "Main Story Completed"
   summary: "May your heart be your guiding key..."
-  order: 60
+  order: 70
   spine_image: /assets/images/kingdom-hearts-spine.png
   expanded_image: /assets/images/kingdom-hearts-background.jpg
 
@@ -111,7 +111,7 @@ entries:
   sort_year: 2026
   status: "Incomplete (On pause for now...)"
   summary: "My favorite Winnie The Pooh game."
-  order: 59
+  order: 60
   spine_image: /assets/images/kingdom-hearts-2-spine.png
   expanded_image: /assets/images/kingdom-hearts-2-background.jpg
 
@@ -124,7 +124,7 @@ entries:
   sort_year: 2025
   status: "Waiting for this to be relevant to play again."
   summary: "I only bought it (and the DLC) for my sister's grad party."
-  order: 79
+  order: 140
   spine_image: /assets/images/mario-kart-8-deluxe-spine.png
   expanded_image: /assets/images/mario-kart-8-deluxe-background.jpg
 
@@ -137,7 +137,7 @@ entries:
   sort_year: 2025
   status: "Waiting for the next party to play with."
   summary: "I'm glad I bought the bundle before the price hike."
-  order: 110
+  order: 160
   spine_image: /assets/images/mario-kart-world-spine.png
   expanded_image: /assets/images/mario-kart-world-background.jpg
 
@@ -150,7 +150,7 @@ entries:
   sort_year: 2024
   status: "Completed"
   summary: "The worst influence on my impressionable teenage mind."
-  order: 130
+  order: 170
   spine_image: /assets/images/persona-5-royal-spine.png
   expanded_image: /assets/images/persona-5-royal-background.jpg
 
@@ -163,7 +163,7 @@ entries:
   sort_year: 2025
   status: "Completed - Regional Living Dex"
   summary: "The most cherished game of my childhood."
-  order: 80
+  order: 150
   spine_image: /assets/images/pokemon-hgss-spine.png
   expanded_image: /assets/images/pokemon-hgss-background.jpg
 
@@ -176,7 +176,7 @@ entries:
   sort_year: 2022
   status: "Main Story Completed"
   summary: "Sticky glob OP"
-  order: 390
+  order: 250
   spine_image: /assets/images/pokemon-legends-arceus-spine.png
   expanded_image: /assets/images/pokemon-legends-arceus-background.jpg
 
@@ -189,7 +189,7 @@ entries:
   sort_year: 2025
   status: "Main Story Completed"
   summary: "A surprisingly cozy experience compared to real-life Paris."
-  order: 68
+  order: 90
   spine_image: /assets/images/pokemon-legends-za-spine.png
   expanded_image: /assets/images/pokemon-legends-za-background.jpg
 
@@ -202,7 +202,7 @@ entries:
   sort_year: 2026
   status: "Taking a break"
   summary: "Let's get this place HUMID!"
-  order: 52
+  order: 50
   spine_image: /assets/images/pokemon-pokopia-spine.png
   expanded_image: /assets/images/pokemon-pokopia-background.jpg
 
@@ -215,7 +215,7 @@ entries:
   sort_year: 2025
   status: "Not even close to beating the first gym (Professor Oak Challenge)"
   summary: "Why do I do this to myself"
-  order: 200
+  order: 190
   spine_image: /assets/images/pokemon-shield-spine.jpg
   expanded_image: /assets/images/pokemon-shield-background.jpg
 
@@ -241,7 +241,7 @@ entries:
   sort_year: 2022
   status: "Main Story Completed"
   summary: "The laggiest and longest Pokemon experience ever."
-  order: 360
+  order: 230
   spine_image: /assets/images/pokemon-violet-background.jpg
   expanded_image: /assets/images/pokemon-violet-background.jpg
 
@@ -254,7 +254,7 @@ entries:
   sort_year: 2020
   status: "Saving for another potential pandemic..."
   summary: "My excuse for not running for cross country during the pandemic."
-  order: 440
+  order: 290
   spine_image: /assets/images/ring-fit-adventure-spine.jpg
   expanded_image: /assets/images/ring-fit-adventure-background.jpg
 
@@ -267,7 +267,7 @@ entries:
   sort_year: 2021
   status: "Super Mario Galaxy Completed"
   summary: "Probably the rarest physical Switch cartridge I have."
-  order: 400
+  order: 260
   spine_image: /assets/images/super-mario-3d-all-stars-spine.jpg
   expanded_image: /assets/images/super-mario-3d-all-stars-background.jpg
 
@@ -280,7 +280,7 @@ entries:
   sort_year: 2019
   status: "Main Game Completed"
   summary: "Two easy mode characters makes the coin collecting trivial."
-  order: 480
+  order: 310
   spine_image: /assets/images/super-mario-bros-u-deluxe-spine.jpg
   expanded_image: /assets/images/super-mario-bros-u-deluxe-background.jpg
 
@@ -293,7 +293,7 @@ entries:
   sort_year: 2025
   status: "Not played in a while."
   summary: "Very fun game to watch, but hard for me to be creative in it."
-  order: 250
+  order: 210
   spine_image: /assets/images/super-mario-maker-2-spine.png
   expanded_image: /assets/images/super-mario-maker-2-background.jpg
 
@@ -306,7 +306,7 @@ entries:
   sort_year: 2019
   status: "100% Completion"
   summary: "One of my favorite games to watch on YouTube."
-  order: 490
+  order: 320
   spine_image: /assets/images/super-mario-odyssey-spine.png
   expanded_image: /assets/images/super-mario-odyssey-background.jpg
 
@@ -319,7 +319,7 @@ entries:
   sort_year: 2025
   status: "Waiting for a time to play again..."
   summary: "Digital board games aren't as fun when you're playing alone."
-  order: 75
+  order: 110
   spine_image: /assets/images/mario-party-jamboree-spine.png
   expanded_image: /assets/images/mario-party-jamboree-background.jpg
 
@@ -332,7 +332,7 @@ entries:
   sort_year: 2026
   status: "Waiting for when I'm bored."
   summary: "It's a shame I don't drink, because this would be hilarious to play."
-  order: 30
+  order: 20
   spine_image: /assets/images/super-monkey-ball-banana-blitz-hd-spine.png
   expanded_image: /assets/images/super-monkey-ball-banana-blitz-hd-background.jpg
 
@@ -345,7 +345,7 @@ entries:
   sort_year: 2018
   status: "Playing it every now and then..."
   summary: "My most played game of all time."
-  order: 500
+  order: 330
   spine_image: /assets/images/ssbu-spine.png
   expanded_image: /assets/images/ssbu-background.jpg
 
@@ -358,7 +358,7 @@ entries:
   sort_year: 2025
   status: "Base Game Completed"
   summary: "Took way too long for me to actually beat on my own."
-  order: 70
+  order: 100
   spine_image: /assets/images/terraria-spine.png
   expanded_image: /assets/images/terraria-background.jpg
 
@@ -371,7 +371,7 @@ entries:
   sort_year: 2026
   status: "100% Completion"
   summary: "One of the greatest gaming experiences of my whole life."
-  order: 50
+  order: 40
   spine_image: /assets/images/zelda-botw-spine.png
   expanded_image: /assets/images/zelda-botw-background.jpg
 
@@ -384,7 +384,7 @@ entries:
   sort_year: 2022
   status: "Completed"
   summary: "Searching for lights is absolutely terrifying."
-  order: 380
+  order: 240
   spine_image: /assets/images/zelda-skyward-sword-spine.png
   expanded_image: /assets/images/zelda-skyward-sword-background.jpg
 
@@ -397,7 +397,7 @@ entries:
   sort_year: 2023
   status: "Main Story Completed"
   summary: "Hoverbikes are so stupid..."
-  order: 300
+  order: 220
   spine_image: /assets/images/zelda-totk-spine.png
   expanded_image: /assets/images/zelda-totk-background.jpg
 
@@ -410,7 +410,7 @@ entries:
   sort_year: 2021
   status: "Main Story Completed"
   summary: "A complicated and grindy combat system with a side of incredible story."
-  order: 420
+  order: 270
   spine_image: /assets/images/xenoblade-definitive-spine.png
   expanded_image: /assets/images/xenoblade-definitive-background.jpg
 
@@ -423,7 +423,7 @@ entries:
   sort_year: 2026
   status: "Barely started"
   summary: "Bought it off a whim."
-  order: 62
+  order: 80
   spine_image: /assets/images/xenoblade-x-definitive-spine.png
   expanded_image: /assets/images/xenoblade-x-definitive-background.jpg
 
@@ -436,7 +436,7 @@ entries:
   sort_year: 2026
   status: "Planned"
   summary: "Testing automatic entry creation."
-  order: 1000
+  order: 340
   spine_image: /assets/images/placeholder-spine.png
   expanded_image: /assets/images/placeholder-background.png
   expanded_position: "center top"
