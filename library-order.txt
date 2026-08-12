@@ -1,0 +1,38 @@
+# Library display order
+# Move lines up or down to rearrange the library.
+# Use entry_id values, not titles.
+
+deltarune
+super-monkey-ball-banana-blitz-hd
+final-fantasy-x
+zelda-botw
+pokemon-pokopia
+kingdom-hearts-2
+kingdom-hearts
+xenoblade-x-definitive
+pokemon-legends-za
+terraria
+mario-party-jamboree
+dq3-remake
+dk-bananza
+mario-kart-8-deluxe
+pokemon-hgss
+mario-kart-world
+persona-5-royal
+it-takes-two
+pokemon-shield
+pokemon-shining-pearl
+super-mario-maker-2
+zelda-totk
+pokemon-violet
+zelda-skyward-sword
+pokemon-legends-arceus
+super-mario-3d-all-stars
+xenoblade-definitive
+fire-emblem-three-houses
+ring-fit-adventure
+animal-crossing-new-horizons
+super-mario-bros-u-deluxe
+super-mario-odyssey
+ssbu
+automation-test
