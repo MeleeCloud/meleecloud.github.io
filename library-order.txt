@@ -35,4 +35,3 @@ animal-crossing-new-horizons
 super-mario-bros-u-deluxe
 super-mario-odyssey
 ssbu
-automation-test
