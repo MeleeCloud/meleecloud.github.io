@@ -119,8 +119,8 @@ entries:
   status: 100% Completion
   summary: GTA but with a helluva lot of pop culture references
   order: 400
-  spine_image: "/assets/images/placeholder-spine.png"
-  expanded_image: "/assets/images/placeholder-background.png"
+  spine_image: "/assets/images/lego-city-undercover-spine.png"
+  expanded_image: "/assets/images/lego-city-undercover-background.jpg"
 - title: Manual Samuel
   entry_id: manual-samuel
   media_type: Game
@@ -185,8 +185,8 @@ entries:
   status: Still playing or watching after all these years...
   summary: The greatest game to play for two weeks at a time.
   order: 370
-  spine_image: "/assets/images/placeholder-spine.png"
-  expanded_image: "/assets/images/placeholder-background.png"
+  spine_image: "/assets/images/minecraft-spine.png"
+  expanded_image: "/assets/images/minecraft-background.jpg"
 - title: Overcooked! 2
   entry_id: overcooked-2
   media_type: Game
@@ -482,8 +482,8 @@ entries:
   status: Main 'Story' Completed
   summary: Becoming friends with all my favorite fictional characters.
   order: 360
-  spine_image: "/assets/images/placeholder-spine.png"
-  expanded_image: "/assets/images/placeholder-background.png"
+  spine_image: "/assets/images/tomodachi-life-living-the-dream-spine.png"
+  expanded_image: "/assets/images/tomodachi-life-living-the-dream-background.png"
 - title: Untitled Goose Game
   entry_id: untitled-goose-game
   media_type: Game
@@ -537,8 +537,8 @@ entries:
   status: 100% Completion
   summary: Technically my first trip to Japan.
   order: 410
-  spine_image: "/assets/images/placeholder-spine.png"
-  expanded_image: "/assets/images/placeholder-background.png"
+  spine_image: "/assets/images/yakuza-0-spine.png"
+  expanded_image: "/assets/images/yakuza-0-background.jpg"
 - title: Yakuza 3 Remastered
   entry_id: yakuza-3-remastered
   media_type: Game
