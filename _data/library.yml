@@ -8,7 +8,7 @@ entries:
   sort_year: 2020
   status: Planned
   summary: Dad's favorite video game of all time, apparently.
-  order: 300
+  order: 360
   spine_image: "/assets/images/animal-crossing-new-horizons-spine.png"
   expanded_image: "/assets/images/animal-crossing-new-horizons-background.jpg"
 - title: Celeste
@@ -19,7 +19,7 @@ entries:
   sort_year: 2019
   status: Main Story Completed, plus a few B-Sides
   summary: A fun speedrun platformer if you're not using a JoyCon.
-  order: 380
+  order: 400
   spine_image: "/assets/images/placeholder-spine.png"
   expanded_image: "/assets/images/placeholder-background.png"
 - title: DELTARUNE
@@ -41,7 +41,7 @@ entries:
   sort_year: 2025
   status: Incomplete (I forgot where I am)
   summary: It's like a rage room, but instead of a hammer it's a controller.
-  order: 130
+  order: 220
   spine_image: "/assets/images/donkey-kong-bananza-spine.png"
   expanded_image: "/assets/images/donkey-kong-bananza-background.jpg"
 - title: Dragon Quest III HD-2D Remake
@@ -52,7 +52,7 @@ entries:
   sort_year: 2025
   status: Incomplete (Forgot where I'm at)
   summary: So far, no dragons, just pyramids.
-  order: 120
+  order: 210
   spine_image: "/assets/images/dq3-remake-spine.png"
   expanded_image: "/assets/images/dq3-remake-background.jpg"
 - title: Final Fantasy X
@@ -63,7 +63,7 @@ entries:
   sort_year: 2026
   status: Ongoing
   summary: Reminding me why I hate random encounters...
-  order: 30
+  order: 40
   spine_image: "/assets/images/final-fantasy-x-spine.png"
   expanded_image: "/assets/images/final-fantasy-x-background.jpg"
 - title: 'Fire Emblem: Three Houses'
@@ -74,7 +74,7 @@ entries:
   sort_year: 2020
   status: Only one route completed
   summary: If chess was a jrpg and also a Persona game.
-  order: 280
+  order: 340
   spine_image: "/assets/images/fire-emblem-three-houses-spine.png"
   expanded_image: "/assets/images/fire-emblem-three-houses-background.jpg"
 - title: It Takes Two
@@ -85,7 +85,7 @@ entries:
   sort_year: 2023
   status: Completed
   summary: Way more fun to play with siblings than a partner.
-  order: 180
+  order: 250
   spine_image: "/assets/images/it-takes-two-spine.png"
   expanded_image: "/assets/images/it-takes-two-background.jpg"
 - title: Kingdom Hearts
@@ -118,7 +118,7 @@ entries:
   sort_year: 2016
   status: 100% Completion
   summary: GTA but with a helluva lot of pop culture references
-  order: 400
+  order: 160
   spine_image: "/assets/images/lego-city-undercover-spine.png"
   expanded_image: "/assets/images/lego-city-undercover-background.jpg"
 - title: Manual Samuel
@@ -151,7 +151,7 @@ entries:
   sort_year: 2025
   status: Waiting for this to be relevant to play again.
   summary: I only bought it (and the DLC) for my sister's grad party.
-  order: 140
+  order: 230
   spine_image: "/assets/images/mario-kart-8-deluxe-spine.png"
   expanded_image: "/assets/images/mario-kart-8-deluxe-background.jpg"
 - title: Mario Kart World
@@ -162,7 +162,7 @@ entries:
   sort_year: 2025
   status: Waiting for the next party to play with.
   summary: I'm glad I bought the bundle before the price hike.
-  order: 160
+  order: 240
   spine_image: "/assets/images/mario-kart-world-spine.png"
   expanded_image: "/assets/images/mario-kart-world-background.jpg"
 - title: Metroid Prime Remastered
@@ -184,7 +184,7 @@ entries:
   sort_year: 2020
   status: Still playing or watching after all these years...
   summary: The greatest game to play for two weeks at a time.
-  order: 370
+  order: 150
   spine_image: "/assets/images/minecraft-spine.png"
   expanded_image: "/assets/images/minecraft-background.jpg"
 - title: Overcooked! 2
@@ -206,7 +206,7 @@ entries:
   sort_year: 2026
   status: Chapter 2 completed
   summary: The only time HP is a useless stat to upgrade.
-  order: 350
+  order: 390
   spine_image: "/assets/images/placeholder-spine.png"
   expanded_image: "/assets/images/placeholder-background.png"
 - title: Persona 5 Royal
@@ -217,7 +217,7 @@ entries:
   sort_year: 2024
   status: Completed
   summary: The worst influence on my impressionable teenage mind.
-  order: 170
+  order: 110
   spine_image: "/assets/images/persona-5-royal-spine.png"
   expanded_image: "/assets/images/persona-5-royal-background.jpg"
 - title: Pokémon HeartGold and SoulSilver
@@ -228,7 +228,7 @@ entries:
   sort_year: 2025
   status: Completed - Regional Living Dex
   summary: The most cherished game of my childhood.
-  order: 150
+  order: 20
   spine_image: "/assets/images/pokemon-hgss-spine.png"
   expanded_image: "/assets/images/pokemon-hgss-background.jpg"
 - title: 'Pokémon Legends: Arceus'
@@ -239,7 +239,7 @@ entries:
   sort_year: 2022
   status: Main Story Completed
   summary: Sticky glob OP
-  order: 250
+  order: 310
   spine_image: "/assets/images/pokemon-legends-arceus-spine.png"
   expanded_image: "/assets/images/pokemon-legends-arceus-background.jpg"
 - title: 'Pokémon Legends: Z-A'
@@ -250,7 +250,7 @@ entries:
   sort_year: 2025
   status: Main Story Completed
   summary: A surprisingly cozy experience compared to real-life Paris.
-  order: 90
+  order: 140
   spine_image: "/assets/images/pokemon-legends-za-spine.png"
   expanded_image: "/assets/images/pokemon-legends-za-background.jpg"
 - title: Pokémon Pokopia
@@ -272,7 +272,7 @@ entries:
   sort_year: 2025
   status: Not even close to beating the first gym (Professor Oak Challenge)
   summary: Why do I do this to myself
-  order: 190
+  order: 260
   spine_image: "/assets/images/pokemon-shield-spine.jpg"
   expanded_image: "/assets/images/pokemon-shield-background.jpg"
 - title: Pokémon Shining Pearl
@@ -283,7 +283,7 @@ entries:
   sort_year: 2024
   status: First Gym Completed (Professor Oak Challenge)
   summary: Another boring challenge left on hold...
-  order: 200
+  order: 270
   spine_image: "/assets/images/pokemon-shining-pearl-spine.png"
   expanded_image: "/assets/images/pokemon-shining-pearl-background.jpg"
 - title: Pokémon Violet
@@ -294,7 +294,7 @@ entries:
   sort_year: 2022
   status: Main Story Completed
   summary: The laggiest and longest Pokemon experience ever.
-  order: 230
+  order: 290
   spine_image: "/assets/images/pokemon-violet-background.jpg"
   expanded_image: "/assets/images/pokemon-violet-background.jpg"
 - title: Ring Fit Adventure
@@ -305,7 +305,7 @@ entries:
   sort_year: 2020
   status: Saving for another potential pandemic...
   summary: My excuse for not running for cross country during the pandemic.
-  order: 290
+  order: 350
   spine_image: "/assets/images/ring-fit-adventure-spine.jpg"
   expanded_image: "/assets/images/ring-fit-adventure-background.jpg"
 - title: Splatoon Raiders
@@ -316,7 +316,7 @@ entries:
   sort_year: 2026
   status: Barely started
   summary: Probably the only time I've ever played Splatoon
-  order: 340
+  order: 380
   spine_image: "/assets/images/placeholder-spine.png"
   expanded_image: "/assets/images/placeholder-background.png"
 - title: Super Mario 3D All-Stars
@@ -327,7 +327,7 @@ entries:
   sort_year: 2021
   status: Super Mario Galaxy Completed
   summary: Probably the rarest physical Switch cartridge I have.
-  order: 260
+  order: 320
   spine_image: "/assets/images/super-mario-3d-all-stars-spine.jpg"
   expanded_image: "/assets/images/super-mario-3d-all-stars-background.jpg"
 - title: Super Mario 3D World (+ Bowser's Fury)
@@ -338,7 +338,7 @@ entries:
   sort_year: 2014
   status: Never beat Champion's Road...
   summary: The most frustrating multiplayer experience ever.
-  order: 390
+  order: 410
   spine_image: "/assets/images/placeholder-spine.png"
   expanded_image: "/assets/images/placeholder-background.png"
 - title: Super Mario Bros. U Deluxe
@@ -349,7 +349,7 @@ entries:
   sort_year: 2019
   status: Main Game Completed
   summary: Two easy mode characters makes the coin collecting trivial.
-  order: 310
+  order: 370
   spine_image: "/assets/images/super-mario-bros-u-deluxe-spine.jpg"
   expanded_image: "/assets/images/super-mario-bros-u-deluxe-background.jpg"
 - title: Super Mario Maker 2
@@ -360,7 +360,7 @@ entries:
   sort_year: 2025
   status: Not played in a while.
   summary: Very fun game to watch, but hard for me to be creative in it.
-  order: 210
+  order: 280
   spine_image: "/assets/images/super-mario-maker-2-spine.png"
   expanded_image: "/assets/images/super-mario-maker-2-background.jpg"
 - title: Super Mario Odyssey
@@ -371,7 +371,7 @@ entries:
   sort_year: 2019
   status: 100% Completion
   summary: One of my favorite games to watch on YouTube.
-  order: 320
+  order: 100
   spine_image: "/assets/images/super-mario-odyssey-spine.png"
   expanded_image: "/assets/images/super-mario-odyssey-background.jpg"
 - title: Super Mario Party Jamboree
@@ -382,7 +382,7 @@ entries:
   sort_year: 2025
   status: Waiting for a time to play again...
   summary: Digital board games aren't as fun when you're playing alone.
-  order: 110
+  order: 200
   spine_image: "/assets/images/mario-party-jamboree-spine.png"
   expanded_image: "/assets/images/mario-party-jamboree-background.jpg"
 - title: 'Super Monkey Ball: Banana Blitz HD'
@@ -393,7 +393,7 @@ entries:
   sort_year: 2026
   status: Waiting for when I'm bored.
   summary: It's a shame I don't drink, because this would be hilarious to play.
-  order: 20
+  order: 180
   spine_image: "/assets/images/super-monkey-ball-banana-blitz-hd-spine.png"
   expanded_image: "/assets/images/super-monkey-ball-banana-blitz-hd-background.jpg"
 - title: Super Smash Bros. Ultimate
@@ -404,7 +404,7 @@ entries:
   sort_year: 2018
   status: Playing it every now and then...
   summary: My most played game of all time.
-  order: 330
+  order: 80
   spine_image: "/assets/images/ssbu-spine.png"
   expanded_image: "/assets/images/ssbu-background.jpg"
 - title: Terraria
@@ -415,7 +415,7 @@ entries:
   sort_year: 2025
   status: Base Game Completed
   summary: Took way too long for me to actually beat on my own.
-  order: 100
+  order: 90
   spine_image: "/assets/images/terraria-spine.png"
   expanded_image: "/assets/images/terraria-background.jpg"
 - title: The Jackbox Party Pack 3
@@ -437,7 +437,7 @@ entries:
   sort_year: 2026
   status: 100% Completion
   summary: One of the greatest gaming experiences of my whole life.
-  order: 40
+  order: 30
   spine_image: "/assets/images/zelda-botw-spine.png"
   expanded_image: "/assets/images/zelda-botw-background.jpg"
 - title: 'The Legend of Zelda: Echoes of Wisdom'
@@ -459,7 +459,7 @@ entries:
   sort_year: 2022
   status: Completed
   summary: Searching for lights is absolutely terrifying.
-  order: 240
+  order: 300
   spine_image: "/assets/images/zelda-skyward-sword-spine.png"
   expanded_image: "/assets/images/zelda-skyward-sword-background.jpg"
 - title: 'The Legend of Zelda: Tears of the Kingdom'
@@ -470,7 +470,7 @@ entries:
   sort_year: 2023
   status: Main Story Completed
   summary: Hoverbikes are so stupid...
-  order: 220
+  order: 120
   spine_image: "/assets/images/zelda-totk-spine.png"
   expanded_image: "/assets/images/zelda-totk-background.jpg"
 - title: 'Tomodachi Life: Living the Dream'
@@ -481,7 +481,7 @@ entries:
   sort_year: 2026
   status: Main 'Story' Completed
   summary: Becoming friends with all my favorite fictional characters.
-  order: 360
+  order: 170
   spine_image: "/assets/images/tomodachi-life-living-the-dream-spine.png"
   expanded_image: "/assets/images/tomodachi-life-living-the-dream-background.png"
 - title: Untitled Goose Game
@@ -514,7 +514,7 @@ entries:
   sort_year: 2026
   status: Barely started
   summary: Bought it off a whim.
-  order: 80
+  order: 190
   spine_image: "/assets/images/xenoblade-x-definitive-spine.png"
   expanded_image: "/assets/images/xenoblade-x-definitive-background.jpg"
 - title: 'Xenoblade Chronicles: Definitive Edition'
@@ -525,7 +525,7 @@ entries:
   sort_year: 2021
   status: Main Story Completed
   summary: A complicated and grindy combat system with a side of incredible story.
-  order: 270
+  order: 330
   spine_image: "/assets/images/xenoblade-definitive-spine.png"
   expanded_image: "/assets/images/xenoblade-definitive-background.jpg"
 - title: Yakuza 0
@@ -536,7 +536,7 @@ entries:
   sort_year: 2021
   status: 100% Completion
   summary: Technically my first trip to Japan.
-  order: 410
+  order: 130
   spine_image: "/assets/images/yakuza-0-spine.png"
   expanded_image: "/assets/images/yakuza-0-background.jpg"
 - title: Yakuza 3 Remastered
