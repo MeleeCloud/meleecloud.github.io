@@ -428,19 +428,6 @@ entries:
   expanded_image: /assets/images/xenoblade-x-definitive-background.jpg
 
 
-- title: "Automation Test"
-  entry_id: automation-test
-  media_type: "Game"
-  platform: "PC"
-  year_experienced: "2026"
-  sort_year: 2026
-  status: "Planned"
-  summary: "Testing automatic entry creation."
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
 - title: "Splatoon Raiders"
   entry_id: splatoon-raiders
   media_type: "Game"
