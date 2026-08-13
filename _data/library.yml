@@ -481,7 +481,7 @@ entries:
 
 
 - title: "Minecraft"
-  entry_id: automation-test
+  entry_id: minecraft
   media_type: "Game"
   platform: "Mobile, PC, Wii U, 3DS, Nintendo Switch"
   year_experienced: "2012-Now"
