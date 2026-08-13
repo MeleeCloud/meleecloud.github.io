@@ -195,10 +195,30 @@ entry_blocks.sort_by! do |block|
   ]
 end
 
+# Ensure every entry block is separated by exactly one blank line.
+normalized_blocks = entry_blocks.map do |block|
+  block.rstrip
+end
+
 updated_contents =
-  before_entries +
-  leading_space +
-  entry_blocks.join
+  before_entries.rstrip +
+  "\n\n" +
+  normalized_blocks.join("\n\n") +
+  "\n"
+
+# Verify the finished file before overwriting library.yml.
+begin
+  YAML.safe_load(
+    updated_contents,
+    permitted_classes: [],
+    aliases: false
+  )
+rescue Psych::SyntaxError => error
+  abort(
+    "Refusing to write invalid library.yml: " \
+    "#{error.message}"
+  )
+end
 
 File.write(catalog_path, updated_contents)
 
