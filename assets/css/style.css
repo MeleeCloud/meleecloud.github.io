@@ -292,6 +292,10 @@ footer {
   background: #1687d9;
 }
 
+.platform-icon--3ds {
+  background: #b21e25;
+}
+
 .platform-icon--wii-u {
   background: #00a4e4;
 }
@@ -305,7 +309,11 @@ footer {
 }
 
 .platform-icon--pc {
-  background: #347a46;
+  background: #59D41E;
+}
+
+.platform-icon--mobile {
+  background: #6BDBBF;
 }
 
 .platform-icon--unknown {

@@ -65,10 +65,14 @@ permalink: /library/
                 {% assign platform_icon = "/assets/images/nintendo-switch-icon.png" %}
                 {% assign platform_class = "switch" %}
       
-              {% when "Nintendo DS" %}
+              {% when "DS" %}
                 {% assign platform_icon = "/assets/images/nintendo-ds-icon.png" %}
                 {% assign platform_class = "ds" %}
-      
+              
+              {% when "3DS" %}
+                {% assign platform_icon = "/assets/images/nintendo-3ds-icon.png" %}
+                {% assign platform_class = "3ds" %}
+
               {% when "Wii U" %}
                 {% assign platform_icon = "/assets/images/wii-u-icon.png" %}
                 {% assign platform_class = "wii-u" %}
@@ -78,12 +82,16 @@ permalink: /library/
                 {% assign platform_class = "steam" %}
       
               {% when "PC (Epic Games)" %}
-                {% assign platform_code = "EGS" %}
+                {% assign platform_code = "/assets/images/epic-games-icon.png" %}
                 {% assign platform_class = "epic" %}
       
               {% when "PC" %}
-                {% assign platform_code = "PC" %}
+                {% assign platform_code = "/assets/images/pc-icon.png" %}
                 {% assign platform_class = "pc" %}
+
+              {% when "Mobile" %}
+                {% assign platform_code = "/assets/images/mobile-icon.png" %}
+                {% assign platform_class = "mobile" %}
       
               {% else %}
                 {% assign platform_code = "?" %}
