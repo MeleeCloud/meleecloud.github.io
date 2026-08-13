@@ -129,15 +129,30 @@ ordered_ids.each_with_index do |entry_id, index|
 end
 
 # Update existing order fields and create them when missing.
+# Build title information from the library.yml data already parsed above.
+title_by_id = entries.to_h do |entry|
+  [
+    entry.fetch("entry_id").to_s,
+    entry.fetch("title").to_s
+  ]
+end
+
+# Update existing order fields and create them when missing.
 entry_blocks.map! do |block|
-  parsed = YAML.safe_load(
-    "entries:\n#{block}",
-    permitted_classes: [],
-    aliases: false
+  entry_id_match = block.match(
+    /^[ \t]*entry_id:[ \t]*["']?([^"'#\r\n]+?)["']?[ \t]*(?:#.*)?$/
   )
 
-  entry = parsed.fetch("entries").first
-  entry_id = entry.fetch("entry_id").to_s
+  unless entry_id_match
+    abort "Could not find an entry_id inside one of the library entry blocks."
+  end
+
+  entry_id = entry_id_match[1].strip
+
+  unless order_by_id.key?(entry_id)
+    abort "No library order was generated for '#{entry_id}'."
+  end
+
   new_order = order_by_id.fetch(entry_id)
 
   if block.match?(/^[ \t]*order:/)
@@ -147,10 +162,6 @@ entry_blocks.map! do |block|
     )
   else
     entry_id_line = /^[ \t]*entry_id:[^\r\n]*(?:\r?\n|$)/
-
-    unless block.match?(entry_id_line)
-      abort "Could not find the entry_id line for '#{entry_id}'."
-    end
 
     block.sub!(entry_id_line) do |line|
       newline = line.end_with?("\r\n") ? "\r\n" : "\n"
@@ -163,16 +174,25 @@ entry_blocks.map! do |block|
   block
 end
 
-# Alphabetize the physical blocks in library.yml by title.
+# Alphabetize the physical entry blocks using the titles that were
+# successfully loaded from the complete library.yml file.
 entry_blocks.sort_by! do |block|
-  parsed = YAML.safe_load(
-    "entries:\n#{block}",
-    permitted_classes: [],
-    aliases: false
+  entry_id_match = block.match(
+    /^[ \t]*entry_id:[ \t]*["']?([^"'#\r\n]+?)["']?[ \t]*(?:#.*)?$/
   )
 
-  title = parsed.fetch("entries").first.fetch("title").to_s
-  title.downcase
+  unless entry_id_match
+    abort "Could not find an entry_id while alphabetizing library.yml."
+  end
+
+  entry_id = entry_id_match[1].strip
+  title = title_by_id.fetch(entry_id)
+
+  [
+    title.downcase.gsub(/\A(?:a|an|the)\s+/, ""),
+    title.downcase,
+    entry_id
+  ]
 end
 
 updated_contents =
