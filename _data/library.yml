@@ -1,714 +1,607 @@
+---
 entries:
-- title: "Animal Crossing: New Horizons"
+- title: 'Animal Crossing: New Horizons'
   entry_id: animal-crossing-new-horizons
-  media_type: "Game"
-  platform: "Nintendo Switch, Nintendo Switch 2"
-  year_experienced: "2020"
+  media_type: Game
+  platform: Nintendo Switch, Nintendo Switch 2
+  year_experienced: '2020'
   sort_year: 2020
-  status: "Planned"
-  summary: "Dad's favorite video game of all time, apparently."
+  status: Planned
+  summary: Dad's favorite video game of all time, apparently.
   order: 300
-  spine_image: /assets/images/animal-crossing-new-horizons-spine.png
-  expanded_image: /assets/images/animal-crossing-new-horizons-background.jpg
-
-
-- title: "DELTARUNE"
-  entry_id: deltarune
-  media_type: "Game"
-  platform: "PC, Nintendo Switch, Nintendo Switch 2"
-  year_experienced: "2018, 2025, 2026"
-  sort_year: 2026
-  status: "Waiting for the next chapter..."
-  summary: "Apparently, bullet hells aren't so bad after all."
-  order: 10
-  spine_image: /assets/images/deltarune-spine.png
-  expanded_image: /assets/images/deltarune-background.jpg
-
-
-- title: "Donkey Kong Bananza"
-  entry_id: dk-bananza
-  media_type: "Game"
-  platform: "Nintendo Switch 2"
-  year_experienced: "2025"
-  sort_year: 2025
-  status: "Incomplete (I forgot where I am)"
-  summary: "It's like a rage room, but instead of a hammer it's a controller."
-  order: 130
-  spine_image: /assets/images/donkey-kong-bananza-spine.png
-  expanded_image: /assets/images/donkey-kong-bananza-background.jpg
-
-
-- title: "Dragon Quest III HD-2D Remake"
-  entry_id: dq3-remake
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2025"
-  sort_year: 2025
-  status: "Incomplete (Forgot where I'm at)"
-  summary: "So far, no dragons, just pyramids."
-  order: 120
-  spine_image: /assets/images/dq3-remake-spine.png
-  expanded_image: /assets/images/dq3-remake-background.jpg
-
-
-- title: "Final Fantasy X"
-  entry_id: final-fantasy-x
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2024, 2026"
-  sort_year: 2026
-  status: "Ongoing"
-  summary: "Reminding me why I hate random encounters..."
-  order: 30
-  spine_image: /assets/images/final-fantasy-x-spine.png
-  expanded_image: /assets/images/final-fantasy-x-background.jpg
-
-
-- title: "Fire Emblem: Three Houses"
-  entry_id: fire-emblem-three-houses
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2020"
-  sort_year: 2020
-  status: "Only one route completed"
-  summary: "If chess was a jrpg and also a Persona game."
-  order: 280
-  spine_image: /assets/images/fire-emblem-three-houses-spine.png
-  expanded_image: /assets/images/fire-emblem-three-houses-background.jpg
-
-
-- title: "It Takes Two"
-  entry_id: it-takes-two
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2023"
-  sort_year: 2023
-  status: "Completed"
-  summary: "Way more fun to play with siblings than a partner."
-  order: 180
-  spine_image: /assets/images/it-takes-two-spine.png
-  expanded_image: /assets/images/it-takes-two-background.jpg
-
-
-- title: "Kingdom Hearts"
-  entry_id: kingdom-hearts
-  media_type: "Game"
-  platform: "PC (Steam)"
-  year_experienced: "2026"
-  sort_year: 2026
-  status: "Main Story Completed"
-  summary: "May your heart be your guiding key..."
-  order: 70
-  spine_image: /assets/images/kingdom-hearts-spine.png
-  expanded_image: /assets/images/kingdom-hearts-background.jpg
-
-
-- title: "Kingdom Hearts 2"
-  entry_id: kingdom-hearts-2
-  media_type: "Game"
-  platform: "PC (Steam)"
-  year_experienced: "2026"
-  sort_year: 2026
-  status: "Incomplete (On pause for now...)"
-  summary: "My favorite Winnie The Pooh game."
-  order: 60
-  spine_image: /assets/images/kingdom-hearts-2-spine.png
-  expanded_image: /assets/images/kingdom-hearts-2-background.jpg
-
-
-- title: "Mario Kart 8 Deluxe"
-  entry_id: mario-kart-8-deluxe
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2025"
-  sort_year: 2025
-  status: "Waiting for this to be relevant to play again."
-  summary: "I only bought it (and the DLC) for my sister's grad party."
-  order: 140
-  spine_image: /assets/images/mario-kart-8-deluxe-spine.png
-  expanded_image: /assets/images/mario-kart-8-deluxe-background.jpg
-
-
-- title: "Mario Kart World"
-  entry_id: mario-kart-world
-  media_type: "Game"
-  platform: "Nintendo Switch 2"
-  year_experienced: "2025"
-  sort_year: 2025
-  status: "Waiting for the next party to play with."
-  summary: "I'm glad I bought the bundle before the price hike."
-  order: 160
-  spine_image: /assets/images/mario-kart-world-spine.png
-  expanded_image: /assets/images/mario-kart-world-background.jpg
-
-
-- title: "Persona 5 Royal"
-  entry_id: persona-5-royal
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2023-2024"
-  sort_year: 2024
-  status: "Completed"
-  summary: "The worst influence on my impressionable teenage mind."
-  order: 170
-  spine_image: /assets/images/persona-5-royal-spine.png
-  expanded_image: /assets/images/persona-5-royal-background.jpg
-
-
-- title: "Pokémon HeartGold and SoulSilver"
-  entry_id: pokemon-hgss
-  media_type: "Game"
-  platform: "Nintendo DS"
-  year_experienced: "2015-2025"
-  sort_year: 2025
-  status: "Completed - Regional Living Dex"
-  summary: "The most cherished game of my childhood."
-  order: 150
-  spine_image: /assets/images/pokemon-hgss-spine.png
-  expanded_image: /assets/images/pokemon-hgss-background.jpg
-
-
-- title: "Pokémon Legends: Arceus"
-  entry_id: pokemon-legends-arceus
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2022"
-  sort_year: 2022
-  status: "Main Story Completed"
-  summary: "Sticky glob OP"
-  order: 250
-  spine_image: /assets/images/pokemon-legends-arceus-spine.png
-  expanded_image: /assets/images/pokemon-legends-arceus-background.jpg
-
-
-- title: "Pokémon Legends: Z-A"
-  entry_id: pokemon-legends-za
-  media_type: "Game"
-  platform: "Nintendo Switch 2"
-  year_experienced: "2025"
-  sort_year: 2025
-  status: "Main Story Completed"
-  summary: "A surprisingly cozy experience compared to real-life Paris."
-  order: 90
-  spine_image: /assets/images/pokemon-legends-za-spine.png
-  expanded_image: /assets/images/pokemon-legends-za-background.jpg
-
-
-- title: "Pokémon Pokopia"
-  entry_id: pokemon-pokopia
-  media_type: "Game"
-  platform: "Nintendo Switch 2"
-  year_experienced: "2026"
-  sort_year: 2026
-  status: "Taking a break"
-  summary: "Let's get this place HUMID!"
-  order: 50
-  spine_image: /assets/images/pokemon-pokopia-spine.png
-  expanded_image: /assets/images/pokemon-pokopia-background.jpg
-
-
-- title: "Pokémon Shield"
-  entry_id: pokemon-shield
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2025"
-  sort_year: 2025
-  status: "Not even close to beating the first gym (Professor Oak Challenge)"
-  summary: "Why do I do this to myself"
-  order: 190
-  spine_image: /assets/images/pokemon-shield-spine.jpg
-  expanded_image: /assets/images/pokemon-shield-background.jpg
-
-
-- title: "Pokémon Shining Pearl"
-  entry_id: pokemon-shining-pearl
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2024"
-  sort_year: 2024
-  status: "First Gym Completed (Professor Oak Challenge)"
-  summary: "Another boring challenge left on hold..."
-  order: 200
-  spine_image: /assets/images/pokemon-shining-pearl-spine.png
-  expanded_image: /assets/images/pokemon-shining-pearl-background.jpg
-
-
-- title: "Pokémon Violet"
-  entry_id: pokemon-violet
-  media_type: "Game"
-  platform: "Nintendo Switch, Nintendo Switch 2"
-  year_experienced: "2022"
-  sort_year: 2022
-  status: "Main Story Completed"
-  summary: "The laggiest and longest Pokemon experience ever."
-  order: 230
-  spine_image: /assets/images/pokemon-violet-background.jpg
-  expanded_image: /assets/images/pokemon-violet-background.jpg
-
-
-- title: "Ring Fit Adventure"
-  entry_id: ring-fit-adventure
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2020, 2021, 2022"
-  sort_year: 2020
-  status: "Saving for another potential pandemic..."
-  summary: "My excuse for not running for cross country during the pandemic."
-  order: 290
-  spine_image: /assets/images/ring-fit-adventure-spine.jpg
-  expanded_image: /assets/images/ring-fit-adventure-background.jpg
-
-
-- title: "Super Mario 3D All-Stars"
-  entry_id: super-mario-3d-all-stars
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2020, 2021"
-  sort_year: 2021
-  status: "Super Mario Galaxy Completed"
-  summary: "Probably the rarest physical Switch cartridge I have."
-  order: 260
-  spine_image: /assets/images/super-mario-3d-all-stars-spine.jpg
-  expanded_image: /assets/images/super-mario-3d-all-stars-background.jpg
-
-
-- title: "Super Mario Bros. U Deluxe"
-  entry_id: super-mario-bros-u-deluxe
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2019"
-  sort_year: 2019
-  status: "Main Game Completed"
-  summary: "Two easy mode characters makes the coin collecting trivial."
-  order: 310
-  spine_image: /assets/images/super-mario-bros-u-deluxe-spine.jpg
-  expanded_image: /assets/images/super-mario-bros-u-deluxe-background.jpg
-
-
-- title: "Super Mario Maker 2"
-  entry_id: super-mario-maker-2
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2024, 2025"
-  sort_year: 2025
-  status: "Not played in a while."
-  summary: "Very fun game to watch, but hard for me to be creative in it."
-  order: 210
-  spine_image: /assets/images/super-mario-maker-2-spine.png
-  expanded_image: /assets/images/super-mario-maker-2-background.jpg
-
-
-- title: "Super Mario Odyssey"
-  entry_id: super-mario-odyssey
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2018-2025"
-  sort_year: 2019
-  status: "100% Completion"
-  summary: "One of my favorite games to watch on YouTube."
-  order: 320
-  spine_image: /assets/images/super-mario-odyssey-spine.png
-  expanded_image: /assets/images/super-mario-odyssey-background.jpg
-
-
-- title: "Super Mario Party Jamboree"
-  entry_id: mario-party-jamboree
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2024-2025"
-  sort_year: 2025
-  status: "Waiting for a time to play again..."
-  summary: "Digital board games aren't as fun when you're playing alone."
-  order: 110
-  spine_image: /assets/images/mario-party-jamboree-spine.png
-  expanded_image: /assets/images/mario-party-jamboree-background.jpg
-
-
-- title: "Super Monkey Ball: Banana Blitz HD"
-  entry_id: super-monkey-ball-banana-blitz-hd
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2026"
-  sort_year: 2026
-  status: "Waiting for when I'm bored."
-  summary: "It's a shame I don't drink, because this would be hilarious to play."
-  order: 20
-  spine_image: /assets/images/super-monkey-ball-banana-blitz-hd-spine.png
-  expanded_image: /assets/images/super-monkey-ball-banana-blitz-hd-background.jpg
-
-
-- title: "Super Smash Bros. Ultimate"
-  entry_id: ssbu
-  media_type: "Game"
-  platform: "Nintendo Switch, Nintendo Switch 2"
-  year_experienced: "2018-2026"
-  sort_year: 2018
-  status: "Playing it every now and then..."
-  summary: "My most played game of all time."
-  order: 330
-  spine_image: /assets/images/ssbu-spine.png
-  expanded_image: /assets/images/ssbu-background.jpg
-
-
-- title: "Terraria"
-  entry_id: terraria
-  media_type: "Game"
-  platform: "PC (Steam)"
-  year_experienced: "2021, 2022, 2024, 2025"
-  sort_year: 2025
-  status: "Base Game Completed"
-  summary: "Took way too long for me to actually beat on my own."
-  order: 100
-  spine_image: /assets/images/terraria-spine.png
-  expanded_image: /assets/images/terraria-background.jpg
-
-
-- title: "The Legend of Zelda: Breath of the Wild"
-  entry_id: zelda-botw
-  media_type: "Game"
-  platform: "Wii U, Nintendo Switch, Nintendo Switch 2"
-  year_experienced: "2018-2026"
-  sort_year: 2026
-  status: "100% Completion"
-  summary: "One of the greatest gaming experiences of my whole life."
-  order: 40
-  spine_image: /assets/images/zelda-botw-spine.png
-  expanded_image: /assets/images/zelda-botw-background.jpg
-
-
-- title: "The Legend of Zelda: Skyward Sword HD"
-  entry_id: zelda-skyward-sword
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2022"
-  sort_year: 2022
-  status: "Completed"
-  summary: "Searching for lights is absolutely terrifying."
-  order: 240
-  spine_image: /assets/images/zelda-skyward-sword-spine.png
-  expanded_image: /assets/images/zelda-skyward-sword-background.jpg
-
-
-- title: "The Legend of Zelda: Tears of the Kingdom"
-  entry_id: zelda-totk
-  media_type: "Game"
-  platform: "Nintendo Switch, Nintendo Switch 2"
-  year_experienced: "2023, 2025"
-  sort_year: 2023
-  status: "Main Story Completed"
-  summary: "Hoverbikes are so stupid..."
-  order: 220
-  spine_image: /assets/images/zelda-totk-spine.png
-  expanded_image: /assets/images/zelda-totk-background.jpg
-
-
-- title: "Xenoblade Chronicles: Definitive Edition"
-  entry_id: xenoblade-definitive
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2020-2021"
-  sort_year: 2021
-  status: "Main Story Completed"
-  summary: "A complicated and grindy combat system with a side of incredible story."
-  order: 270
-  spine_image: /assets/images/xenoblade-definitive-spine.png
-  expanded_image: /assets/images/xenoblade-definitive-background.jpg
-
-
-- title: "Xenoblade Chronicles X: Definitive Edition"
-  entry_id: xenoblade-x-definitive
-  media_type: "Game"
-  platform: "Nintendo Switch 2"
-  year_experienced: "2026"
-  sort_year: 2026
-  status: "Barely started"
-  summary: "Bought it off a whim."
-  order: 80
-  spine_image: /assets/images/xenoblade-x-definitive-spine.png
-  expanded_image: /assets/images/xenoblade-x-definitive-background.jpg
-
-
-- title: "Splatoon Raiders"
-  entry_id: splatoon-raiders
-  media_type: "Game"
-  platform: "Nintendo Switch 2"
-  year_experienced: "2026"
-  sort_year: 2026
-  status: "Barely started"
-  summary: "Probably the only time I've ever played Splatoon"
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "Paper Mario: The Thousand-Year Door"
-  entry_id: paper-mario-ttyd
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2026"
-  sort_year: 2026
-  status: "Chapter 2 completed"
-  summary: "The only time HP is a useless stat to upgrade."
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "Tomodachi Life: Living the Dream"
-  entry_id: tomodachi-life-living-the-dream
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2026"
-  sort_year: 2026
-  status: "Main 'Story' Completed"
-  summary: "Becoming friends with all my favorite fictional characters."
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "Minecraft"
-  entry_id: minecraft
-  media_type: "Game"
-  platform: "Mobile, PC, Wii U, 3DS, Nintendo Switch"
-  year_experienced: "2012-Now"
-  sort_year: 2020
-  status: "Still playing or watching after all these years..."
-  summary: "The greatest game to play for two weeks at a time."
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "Celeste"
+  spine_image: "/assets/images/animal-crossing-new-horizons-spine.png"
+  expanded_image: "/assets/images/animal-crossing-new-horizons-background.jpg"
+- title: Celeste
   entry_id: celeste
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2019-2020"
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: 2019-2020
   sort_year: 2019
-  status: "Main Story Completed, plus a few B-Sides"
-  summary: "A fun speedrun platformer if you're not using a JoyCon."
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "Super Mario 3D World (+ Bowser's Fury)"
-  entry_id: super-mario-3d-world
-  media_type: "Game"
-  platform: "Wii U, Nintendo Switch"
-  year_experienced: "2014-2022"
-  sort_year: 2014
-  status: "Never beat Champion's Road..."
-  summary: "The most frustrating multiplayer experience ever."
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "Lego City Undercover"
-  entry_id: lego-city-undercover
-  media_type: "Game"
-  platform: "Wii U, Nintendo Switch"
-  year_experienced: "2016, 2026"
-  sort_year: 2016
-  status: "100% Completion"
-  summary: "GTA but with a helluva lot of pop culture references"
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "Yakuza 0"
-  entry_id: yakuza-0
-  media_type: "Game"
-  platform: "PC (Steam), Nintendo Switch 2"
-  year_experienced: ""
-  sort_year: 2021
-  status: "100% Completion"
-  summary: "Technically my first trip to Japan."
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "Yakuza Kiwami"
-  entry_id: yakuza-kiwami
-  media_type: "Game"
-  platform: "PC (Steam)"
-  year_experienced: "2022"
-  sort_year: 2022
-  status: "Completed"
-  summary: "Tiger Drop is actually so dumb"
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "Yakuza Kiwami 2"
-  entry_id: yakuza-kiwami-2
-  media_type: "Game"
-  platform: "PC (Steam)"
-  year_experienced: "2022"
-  sort_year: 2022
-  status: "Completed"
-  summary: "I still don't know how my laptop survived ultra graphics."
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "Yakuza 3 Remastered"
-  entry_id: yakuza-3-remastered
-  media_type: "Game"
-  platform: "PC (Steam)"
-  year_experienced: "2022"
-  sort_year: 2022
-  status: "Completed"
-  summary: "The worst combat experience ever with too much parrying."
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "Yakuza 4 Remastered"
-  entry_id: yakuza-4-remastered
-  media_type: "Game"
-  platform: "PC (Steam)"
-  year_experienced: "2022"
-  sort_year: 2022
-  status: "Completed"
-  summary: "At this point, the karaoke was really the most fun part."
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "Yakuza 5 Remastered"
-  entry_id: yakuza-5-remastered
-  media_type: "Game"
-  platform: "PC (Steam)"
-  year_experienced: "2023-2024"
-  sort_year: 2023
-  status: "Didn't finish the Akiyama story."
-  summary: "The weirdest assortment of side minigames I've experienced."
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "Yakuza 6: The Song of Life"
-  entry_id: yakuza-6
-  media_type: "Game"
-  platform: "PC (Steam)"
-  year_experienced: ""
-  sort_year: 
-  status: "Never played"
-  summary: ""
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "Metroid Prime Remastered"
-  entry_id: metroid-prime-remastered
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2024"
-  sort_year: 2022
-  status: "Barely started"
-  summary: "Lowkey kinda scary"
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "Mario + Rabbids: Sparks of Hope"
-  entry_id: mario-rabbids-sparks-of-hope
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2024"
-  sort_year: 2024
-  status: "Didn't go past the second world."
-  summary: "Felt like a mobile game..."
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "Untitled Goose Game"
-  entry_id: untitled-goose-game
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2020"
-  sort_year: 2020
-  status: "Completed"
-  summary: "Way funnier watching other people play."
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "The Legend of Zelda: Echoes of Wisdom"
-  entry_id: zelda-echoes
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2024"
-  sort_year: 2024
-  status: "Completed"
-  summary: "Beds, water blocks and peahats make the game really easy."
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "Manual Samuel"
-  entry_id: manual-samuel
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2020"
-  sort_year: 2020
-  status: "Completed"
-  summary: "More frustrating in multiplayer"
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "The Jackbox Party Pack 3"
-  entry_id: jackbox-3
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2025"
+  status: Main Story Completed, plus a few B-Sides
+  summary: A fun speedrun platformer if you're not using a JoyCon.
+  order: 380
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: DELTARUNE
+  entry_id: deltarune
+  media_type: Game
+  platform: PC, Nintendo Switch, Nintendo Switch 2
+  year_experienced: 2018, 2025, 2026
+  sort_year: 2026
+  status: Waiting for the next chapter...
+  summary: Apparently, bullet hells aren't so bad after all.
+  order: 10
+  spine_image: "/assets/images/deltarune-spine.png"
+  expanded_image: "/assets/images/deltarune-background.jpg"
+- title: Donkey Kong Bananza
+  entry_id: dk-bananza
+  media_type: Game
+  platform: Nintendo Switch 2
+  year_experienced: '2025'
   sort_year: 2025
-  status: "Waiting for another opportunity to play..."
-  summary: "Slandering friends and family competitively."
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "WWE 2K Battlegrounds"
-  entry_id: wwe-2k-battlegrounds
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2024"
+  status: Incomplete (I forgot where I am)
+  summary: It's like a rage room, but instead of a hammer it's a controller.
+  order: 130
+  spine_image: "/assets/images/donkey-kong-bananza-spine.png"
+  expanded_image: "/assets/images/donkey-kong-bananza-background.jpg"
+- title: Dragon Quest III HD-2D Remake
+  entry_id: dq3-remake
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: '2025'
+  sort_year: 2025
+  status: Incomplete (Forgot where I'm at)
+  summary: So far, no dragons, just pyramids.
+  order: 120
+  spine_image: "/assets/images/dq3-remake-spine.png"
+  expanded_image: "/assets/images/dq3-remake-background.jpg"
+- title: Final Fantasy X
+  entry_id: final-fantasy-x
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: 2024, 2026
+  sort_year: 2026
+  status: Ongoing
+  summary: Reminding me why I hate random encounters...
+  order: 30
+  spine_image: "/assets/images/final-fantasy-x-spine.png"
+  expanded_image: "/assets/images/final-fantasy-x-background.jpg"
+- title: 'Fire Emblem: Three Houses'
+  entry_id: fire-emblem-three-houses
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: '2020'
+  sort_year: 2020
+  status: Only one route completed
+  summary: If chess was a jrpg and also a Persona game.
+  order: 280
+  spine_image: "/assets/images/fire-emblem-three-houses-spine.png"
+  expanded_image: "/assets/images/fire-emblem-three-houses-background.jpg"
+- title: It Takes Two
+  entry_id: it-takes-two
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: '2023'
+  sort_year: 2023
+  status: Completed
+  summary: Way more fun to play with siblings than a partner.
+  order: 180
+  spine_image: "/assets/images/it-takes-two-spine.png"
+  expanded_image: "/assets/images/it-takes-two-background.jpg"
+- title: Kingdom Hearts
+  entry_id: kingdom-hearts
+  media_type: Game
+  platform: PC (Steam)
+  year_experienced: '2026'
+  sort_year: 2026
+  status: Main Story Completed
+  summary: May your heart be your guiding key...
+  order: 70
+  spine_image: "/assets/images/kingdom-hearts-spine.png"
+  expanded_image: "/assets/images/kingdom-hearts-background.jpg"
+- title: Kingdom Hearts 2
+  entry_id: kingdom-hearts-2
+  media_type: Game
+  platform: PC (Steam)
+  year_experienced: '2026'
+  sort_year: 2026
+  status: Incomplete (On pause for now...)
+  summary: My favorite Winnie The Pooh game.
+  order: 60
+  spine_image: "/assets/images/kingdom-hearts-2-spine.png"
+  expanded_image: "/assets/images/kingdom-hearts-2-background.jpg"
+- title: Lego City Undercover
+  entry_id: lego-city-undercover
+  media_type: Game
+  platform: Wii U, Nintendo Switch
+  year_experienced: 2016, 2026
+  sort_year: 2016
+  status: 100% Completion
+  summary: GTA but with a helluva lot of pop culture references
+  order: 400
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: Manual Samuel
+  entry_id: manual-samuel
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: '2020'
+  sort_year: 2020
+  status: Completed
+  summary: More frustrating in multiplayer
+  order: 520
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: 'Mario + Rabbids: Sparks of Hope'
+  entry_id: mario-rabbids-sparks-of-hope
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: '2024'
   sort_year: 2024
-  status: "I should sell this game"
-  summary: "Stupid mobile game that I should just make $5 off of"
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
-
-
-- title: "Overcooked! 2"
+  status: Didn't go past the second world.
+  summary: Felt like a mobile game...
+  order: 490
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: Mario Kart 8 Deluxe
+  entry_id: mario-kart-8-deluxe
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: '2025'
+  sort_year: 2025
+  status: Waiting for this to be relevant to play again.
+  summary: I only bought it (and the DLC) for my sister's grad party.
+  order: 140
+  spine_image: "/assets/images/mario-kart-8-deluxe-spine.png"
+  expanded_image: "/assets/images/mario-kart-8-deluxe-background.jpg"
+- title: Mario Kart World
+  entry_id: mario-kart-world
+  media_type: Game
+  platform: Nintendo Switch 2
+  year_experienced: '2025'
+  sort_year: 2025
+  status: Waiting for the next party to play with.
+  summary: I'm glad I bought the bundle before the price hike.
+  order: 160
+  spine_image: "/assets/images/mario-kart-world-spine.png"
+  expanded_image: "/assets/images/mario-kart-world-background.jpg"
+- title: Metroid Prime Remastered
+  entry_id: metroid-prime-remastered
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: '2024'
+  sort_year: 2022
+  status: Barely started
+  summary: Lowkey kinda scary
+  order: 480
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: Minecraft
+  entry_id: minecraft
+  media_type: Game
+  platform: Mobile, PC, Wii U, 3DS, Nintendo Switch
+  year_experienced: 2012-Now
+  sort_year: 2020
+  status: Still playing or watching after all these years...
+  summary: The greatest game to play for two weeks at a time.
+  order: 370
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: Overcooked! 2
   entry_id: overcooked-2
-  media_type: "Game"
-  platform: "Nintendo Switch"
-  year_experienced: "2019"
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: '2019'
   sort_year: 2019
-  status: "Never got far into it"
-  summary: "The easiest way to make your sister want to kill you"
-  order:
-  spine_image: /assets/images/placeholder-spine.png
-  expanded_image: /assets/images/placeholder-background.png
+  status: Never got far into it
+  summary: The easiest way to make your sister want to kill you
+  order: 550
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: 'Paper Mario: The Thousand-Year Door'
+  entry_id: paper-mario-ttyd
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: '2026'
+  sort_year: 2026
+  status: Chapter 2 completed
+  summary: The only time HP is a useless stat to upgrade.
+  order: 350
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: Persona 5 Royal
+  entry_id: persona-5-royal
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: 2023-2024
+  sort_year: 2024
+  status: Completed
+  summary: The worst influence on my impressionable teenage mind.
+  order: 170
+  spine_image: "/assets/images/persona-5-royal-spine.png"
+  expanded_image: "/assets/images/persona-5-royal-background.jpg"
+- title: Pokémon HeartGold and SoulSilver
+  entry_id: pokemon-hgss
+  media_type: Game
+  platform: Nintendo DS
+  year_experienced: 2015-2025
+  sort_year: 2025
+  status: Completed - Regional Living Dex
+  summary: The most cherished game of my childhood.
+  order: 150
+  spine_image: "/assets/images/pokemon-hgss-spine.png"
+  expanded_image: "/assets/images/pokemon-hgss-background.jpg"
+- title: 'Pokémon Legends: Arceus'
+  entry_id: pokemon-legends-arceus
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: '2022'
+  sort_year: 2022
+  status: Main Story Completed
+  summary: Sticky glob OP
+  order: 250
+  spine_image: "/assets/images/pokemon-legends-arceus-spine.png"
+  expanded_image: "/assets/images/pokemon-legends-arceus-background.jpg"
+- title: 'Pokémon Legends: Z-A'
+  entry_id: pokemon-legends-za
+  media_type: Game
+  platform: Nintendo Switch 2
+  year_experienced: '2025'
+  sort_year: 2025
+  status: Main Story Completed
+  summary: A surprisingly cozy experience compared to real-life Paris.
+  order: 90
+  spine_image: "/assets/images/pokemon-legends-za-spine.png"
+  expanded_image: "/assets/images/pokemon-legends-za-background.jpg"
+- title: Pokémon Pokopia
+  entry_id: pokemon-pokopia
+  media_type: Game
+  platform: Nintendo Switch 2
+  year_experienced: '2026'
+  sort_year: 2026
+  status: Taking a break
+  summary: Let's get this place HUMID!
+  order: 50
+  spine_image: "/assets/images/pokemon-pokopia-spine.png"
+  expanded_image: "/assets/images/pokemon-pokopia-background.jpg"
+- title: Pokémon Shield
+  entry_id: pokemon-shield
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: '2025'
+  sort_year: 2025
+  status: Not even close to beating the first gym (Professor Oak Challenge)
+  summary: Why do I do this to myself
+  order: 190
+  spine_image: "/assets/images/pokemon-shield-spine.jpg"
+  expanded_image: "/assets/images/pokemon-shield-background.jpg"
+- title: Pokémon Shining Pearl
+  entry_id: pokemon-shining-pearl
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: '2024'
+  sort_year: 2024
+  status: First Gym Completed (Professor Oak Challenge)
+  summary: Another boring challenge left on hold...
+  order: 200
+  spine_image: "/assets/images/pokemon-shining-pearl-spine.png"
+  expanded_image: "/assets/images/pokemon-shining-pearl-background.jpg"
+- title: Pokémon Violet
+  entry_id: pokemon-violet
+  media_type: Game
+  platform: Nintendo Switch, Nintendo Switch 2
+  year_experienced: '2022'
+  sort_year: 2022
+  status: Main Story Completed
+  summary: The laggiest and longest Pokemon experience ever.
+  order: 230
+  spine_image: "/assets/images/pokemon-violet-background.jpg"
+  expanded_image: "/assets/images/pokemon-violet-background.jpg"
+- title: Ring Fit Adventure
+  entry_id: ring-fit-adventure
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: 2020, 2021, 2022
+  sort_year: 2020
+  status: Saving for another potential pandemic...
+  summary: My excuse for not running for cross country during the pandemic.
+  order: 290
+  spine_image: "/assets/images/ring-fit-adventure-spine.jpg"
+  expanded_image: "/assets/images/ring-fit-adventure-background.jpg"
+- title: Splatoon Raiders
+  entry_id: splatoon-raiders
+  media_type: Game
+  platform: Nintendo Switch 2
+  year_experienced: '2026'
+  sort_year: 2026
+  status: Barely started
+  summary: Probably the only time I've ever played Splatoon
+  order: 340
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: Super Mario 3D All-Stars
+  entry_id: super-mario-3d-all-stars
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: 2020, 2021
+  sort_year: 2021
+  status: Super Mario Galaxy Completed
+  summary: Probably the rarest physical Switch cartridge I have.
+  order: 260
+  spine_image: "/assets/images/super-mario-3d-all-stars-spine.jpg"
+  expanded_image: "/assets/images/super-mario-3d-all-stars-background.jpg"
+- title: Super Mario 3D World (+ Bowser's Fury)
+  entry_id: super-mario-3d-world
+  media_type: Game
+  platform: Wii U, Nintendo Switch
+  year_experienced: 2014-2022
+  sort_year: 2014
+  status: Never beat Champion's Road...
+  summary: The most frustrating multiplayer experience ever.
+  order: 390
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: Super Mario Bros. U Deluxe
+  entry_id: super-mario-bros-u-deluxe
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: '2019'
+  sort_year: 2019
+  status: Main Game Completed
+  summary: Two easy mode characters makes the coin collecting trivial.
+  order: 310
+  spine_image: "/assets/images/super-mario-bros-u-deluxe-spine.jpg"
+  expanded_image: "/assets/images/super-mario-bros-u-deluxe-background.jpg"
+- title: Super Mario Maker 2
+  entry_id: super-mario-maker-2
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: 2024, 2025
+  sort_year: 2025
+  status: Not played in a while.
+  summary: Very fun game to watch, but hard for me to be creative in it.
+  order: 210
+  spine_image: "/assets/images/super-mario-maker-2-spine.png"
+  expanded_image: "/assets/images/super-mario-maker-2-background.jpg"
+- title: Super Mario Odyssey
+  entry_id: super-mario-odyssey
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: 2018-2025
+  sort_year: 2019
+  status: 100% Completion
+  summary: One of my favorite games to watch on YouTube.
+  order: 320
+  spine_image: "/assets/images/super-mario-odyssey-spine.png"
+  expanded_image: "/assets/images/super-mario-odyssey-background.jpg"
+- title: Super Mario Party Jamboree
+  entry_id: mario-party-jamboree
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: 2024-2025
+  sort_year: 2025
+  status: Waiting for a time to play again...
+  summary: Digital board games aren't as fun when you're playing alone.
+  order: 110
+  spine_image: "/assets/images/mario-party-jamboree-spine.png"
+  expanded_image: "/assets/images/mario-party-jamboree-background.jpg"
+- title: 'Super Monkey Ball: Banana Blitz HD'
+  entry_id: super-monkey-ball-banana-blitz-hd
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: '2026'
+  sort_year: 2026
+  status: Waiting for when I'm bored.
+  summary: It's a shame I don't drink, because this would be hilarious to play.
+  order: 20
+  spine_image: "/assets/images/super-monkey-ball-banana-blitz-hd-spine.png"
+  expanded_image: "/assets/images/super-monkey-ball-banana-blitz-hd-background.jpg"
+- title: Super Smash Bros. Ultimate
+  entry_id: ssbu
+  media_type: Game
+  platform: Nintendo Switch, Nintendo Switch 2
+  year_experienced: 2018-2026
+  sort_year: 2018
+  status: Playing it every now and then...
+  summary: My most played game of all time.
+  order: 330
+  spine_image: "/assets/images/ssbu-spine.png"
+  expanded_image: "/assets/images/ssbu-background.jpg"
+- title: Terraria
+  entry_id: terraria
+  media_type: Game
+  platform: PC (Steam)
+  year_experienced: 2021, 2022, 2024, 2025
+  sort_year: 2025
+  status: Base Game Completed
+  summary: Took way too long for me to actually beat on my own.
+  order: 100
+  spine_image: "/assets/images/terraria-spine.png"
+  expanded_image: "/assets/images/terraria-background.jpg"
+- title: The Jackbox Party Pack 3
+  entry_id: jackbox-3
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: '2025'
+  sort_year: 2025
+  status: Waiting for another opportunity to play...
+  summary: Slandering friends and family competitively.
+  order: 530
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: 'The Legend of Zelda: Breath of the Wild'
+  entry_id: zelda-botw
+  media_type: Game
+  platform: Wii U, Nintendo Switch, Nintendo Switch 2
+  year_experienced: 2018-2026
+  sort_year: 2026
+  status: 100% Completion
+  summary: One of the greatest gaming experiences of my whole life.
+  order: 40
+  spine_image: "/assets/images/zelda-botw-spine.png"
+  expanded_image: "/assets/images/zelda-botw-background.jpg"
+- title: 'The Legend of Zelda: Echoes of Wisdom'
+  entry_id: zelda-echoes
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: '2024'
+  sort_year: 2024
+  status: Completed
+  summary: Beds, water blocks and peahats make the game really easy.
+  order: 510
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: 'The Legend of Zelda: Skyward Sword HD'
+  entry_id: zelda-skyward-sword
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: '2022'
+  sort_year: 2022
+  status: Completed
+  summary: Searching for lights is absolutely terrifying.
+  order: 240
+  spine_image: "/assets/images/zelda-skyward-sword-spine.png"
+  expanded_image: "/assets/images/zelda-skyward-sword-background.jpg"
+- title: 'The Legend of Zelda: Tears of the Kingdom'
+  entry_id: zelda-totk
+  media_type: Game
+  platform: Nintendo Switch, Nintendo Switch 2
+  year_experienced: 2023, 2025
+  sort_year: 2023
+  status: Main Story Completed
+  summary: Hoverbikes are so stupid...
+  order: 220
+  spine_image: "/assets/images/zelda-totk-spine.png"
+  expanded_image: "/assets/images/zelda-totk-background.jpg"
+- title: 'Tomodachi Life: Living the Dream'
+  entry_id: tomodachi-life-living-the-dream
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: '2026'
+  sort_year: 2026
+  status: Main 'Story' Completed
+  summary: Becoming friends with all my favorite fictional characters.
+  order: 360
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: Untitled Goose Game
+  entry_id: untitled-goose-game
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: '2020'
+  sort_year: 2020
+  status: Completed
+  summary: Way funnier watching other people play.
+  order: 500
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: WWE 2K Battlegrounds
+  entry_id: wwe-2k-battlegrounds
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: '2024'
+  sort_year: 2024
+  status: I should sell this game
+  summary: Stupid mobile game that I should just make $5 off of
+  order: 540
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: 'Xenoblade Chronicles X: Definitive Edition'
+  entry_id: xenoblade-x-definitive
+  media_type: Game
+  platform: Nintendo Switch 2
+  year_experienced: '2026'
+  sort_year: 2026
+  status: Barely started
+  summary: Bought it off a whim.
+  order: 80
+  spine_image: "/assets/images/xenoblade-x-definitive-spine.png"
+  expanded_image: "/assets/images/xenoblade-x-definitive-background.jpg"
+- title: 'Xenoblade Chronicles: Definitive Edition'
+  entry_id: xenoblade-definitive
+  media_type: Game
+  platform: Nintendo Switch
+  year_experienced: 2020-2021
+  sort_year: 2021
+  status: Main Story Completed
+  summary: A complicated and grindy combat system with a side of incredible story.
+  order: 270
+  spine_image: "/assets/images/xenoblade-definitive-spine.png"
+  expanded_image: "/assets/images/xenoblade-definitive-background.jpg"
+- title: Yakuza 0
+  entry_id: yakuza-0
+  media_type: Game
+  platform: PC (Steam), Nintendo Switch 2
+  year_experienced: ''
+  sort_year: 2021
+  status: 100% Completion
+  summary: Technically my first trip to Japan.
+  order: 410
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: Yakuza 3 Remastered
+  entry_id: yakuza-3-remastered
+  media_type: Game
+  platform: PC (Steam)
+  year_experienced: '2022'
+  sort_year: 2022
+  status: Completed
+  summary: The worst combat experience ever with too much parrying.
+  order: 440
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: Yakuza 4 Remastered
+  entry_id: yakuza-4-remastered
+  media_type: Game
+  platform: PC (Steam)
+  year_experienced: '2022'
+  sort_year: 2022
+  status: Completed
+  summary: At this point, the karaoke was really the most fun part.
+  order: 450
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: Yakuza 5 Remastered
+  entry_id: yakuza-5-remastered
+  media_type: Game
+  platform: PC (Steam)
+  year_experienced: 2023-2024
+  sort_year: 2023
+  status: Didn't finish the Akiyama story.
+  summary: The weirdest assortment of side minigames I've experienced.
+  order: 460
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: 'Yakuza 6: The Song of Life'
+  entry_id: yakuza-6
+  media_type: Game
+  platform: PC (Steam)
+  year_experienced: ''
+  sort_year:
+  status: Never played
+  summary: ''
+  order: 470
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: Yakuza Kiwami
+  entry_id: yakuza-kiwami
+  media_type: Game
+  platform: PC (Steam)
+  year_experienced: '2022'
+  sort_year: 2022
+  status: Completed
+  summary: Tiger Drop is actually so dumb
+  order: 420
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
+- title: Yakuza Kiwami 2
+  entry_id: yakuza-kiwami-2
+  media_type: Game
+  platform: PC (Steam)
+  year_experienced: '2022'
+  sort_year: 2022
+  status: Completed
+  summary: I still don't know how my laptop survived ultra graphics.
+  order: 430
+  spine_image: "/assets/images/placeholder-spine.png"
+  expanded_image: "/assets/images/placeholder-background.png"
