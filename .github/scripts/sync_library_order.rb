@@ -9,10 +9,9 @@ order_path = File.join(root, "library-order.txt")
 abort "Could not find #{catalog_path}." unless File.exist?(catalog_path)
 abort "Could not find #{order_path}." unless File.exist?(order_path)
 
-contents = File.read(catalog_path)
-
-catalog = YAML.safe_load(
-  contents,
+# Load library.yml normally.
+catalog = YAML.safe_load_file(
+  catalog_path,
   permitted_classes: [],
   aliases: false
 )
@@ -27,6 +26,7 @@ catalog_ids = entries.map do |entry|
   entry.fetch("entry_id").to_s
 end
 
+# Make sure library.yml does not contain duplicate IDs.
 duplicate_catalog_ids = catalog_ids.tally
   .select { |_entry_id, count| count > 1 }
   .keys
@@ -38,10 +38,12 @@ unless duplicate_catalog_ids.empty?
   )
 end
 
+# Read the requested website order.
 ordered_ids = File.readlines(order_path, chomp: true)
   .map(&:strip)
   .reject { |line| line.empty? || line.start_with?("#") }
 
+# Make sure library-order.txt does not contain duplicate IDs.
 duplicate_order_ids = ordered_ids.tally
   .select { |_entry_id, count| count > 1 }
   .keys
@@ -53,6 +55,7 @@ unless duplicate_order_ids.empty?
   )
 end
 
+# Reject IDs that do not exist in library.yml.
 unknown_ids = ordered_ids - catalog_ids
 
 unless unknown_ids.empty?
@@ -62,7 +65,7 @@ unless unknown_ids.empty?
   )
 end
 
-# Put newly added library entries at the bottom of the display order.
+# Add new entries to the bottom of the website order.
 missing_ids = catalog_ids - ordered_ids
 
 unless missing_ids.empty?
@@ -87,126 +90,33 @@ unless missing_ids.empty?
   end
 end
 
-# Separate the entries section from anything above it.
-header_match = contents.match(/^entries:\s*\r?\n/)
-
-unless header_match
-  abort "Could not find the entries section in #{catalog_path}."
-end
-
-before_entries = contents[0...header_match.end(0)]
-entries_text = contents[header_match.end(0)..]
-
-entry_starts = []
-
-entries_text.to_enum(:scan, /^-[ \t]+title:/).each do
-  entry_starts << Regexp.last_match.begin(0)
-end
-
-if entry_starts.empty?
-  abort "Could not find any entry blocks in #{catalog_path}."
-end
-
-if entry_starts.length != entries.length
-  abort(
-    "Found #{entry_starts.length} entry blocks in the file, " \
-    "but YAML contains #{entries.length} entries."
-  )
-end
-
-leading_space = entries_text[0...entry_starts.first]
-entry_blocks = []
-
-entry_starts.each_with_index do |start_position, index|
-  end_position = entry_starts[index + 1] || entries_text.length
-  entry_blocks << entries_text[start_position...end_position]
-end
-
+# Create the numeric order lookup.
 order_by_id = {}
 
 ordered_ids.each_with_index do |entry_id, index|
   order_by_id[entry_id] = (index + 1) * 10
 end
 
-# Update existing order fields and create them when missing.
-# Build title information from the library.yml data already parsed above.
-title_by_id = entries.to_h do |entry|
+# Update or create every order value.
+entries.each do |entry|
+  entry_id = entry.fetch("entry_id").to_s
+  entry["order"] = order_by_id.fetch(entry_id)
+end
+
+# Keep the actual library.yml entries alphabetized by title.
+entries.sort_by! do |entry|
   [
-    entry.fetch("entry_id").to_s,
-    entry.fetch("title").to_s
+    entry.fetch("title").to_s.downcase,
+    entry.fetch("entry_id").to_s
   ]
 end
 
-# Update existing order fields and create them when missing.
-entry_blocks.map! do |block|
-  entry_id_match = block.match(
-    /^[ \t]*entry_id:[ \t]*["']?([^"'#\r\n]+?)["']?[ \t]*(?:#.*)?$/
-  )
+catalog["entries"] = entries
 
-  unless entry_id_match
-    abort "Could not find an entry_id inside one of the library entry blocks."
-  end
+# Let Ruby generate valid YAML instead of manually moving text blocks.
+updated_contents = YAML.dump(catalog)
 
-  entry_id = entry_id_match[1].strip
-
-  unless order_by_id.key?(entry_id)
-    abort "No library order was generated for '#{entry_id}'."
-  end
-
-  new_order = order_by_id.fetch(entry_id)
-
-  if block.match?(/^[ \t]*order:/)
-    block.sub!(
-      /^[ \t]*order:[^\r\n]*/,
-      "order: #{new_order}"
-    )
-  else
-    entry_id_line = /^[ \t]*entry_id:[^\r\n]*(?:\r?\n|$)/
-
-    block.sub!(entry_id_line) do |line|
-      newline = line.end_with?("\r\n") ? "\r\n" : "\n"
-      "#{line}order: #{new_order}#{newline}"
-    end
-
-    puts "Created missing order field for #{entry_id}."
-  end
-
-  block
-end
-
-# Alphabetize the physical entry blocks using the titles that were
-# successfully loaded from the complete library.yml file.
-entry_blocks.sort_by! do |block|
-  entry_id_match = block.match(
-    /^[ \t]*entry_id:[ \t]*["']?([^"'#\r\n]+?)["']?[ \t]*(?:#.*)?$/
-  )
-
-  unless entry_id_match
-    abort "Could not find an entry_id while alphabetizing library.yml."
-  end
-
-  entry_id = entry_id_match[1].strip
-  title = title_by_id.fetch(entry_id)
-
-  [
-    title.downcase.gsub(/\A(?:a|an|the)\s+/, ""),
-    title.downcase,
-    entry_id
-  ]
-end
-
-# Ensure every entry block is separated by exactly one blank line.
-normalized_blocks = entry_blocks.map do |block|
-  block.rstrip
-end
-
-updated_contents =
-  before_entries.rstrip +
-  "\n\n" +
-  normalized_blocks.join("\n\n") +
-  "\n"
-
-# Verify the finished file before overwriting library.yml.
+# Confirm the generated result is valid before writing it.
 begin
   YAML.safe_load(
     updated_contents,
@@ -214,13 +124,10 @@ begin
     aliases: false
   )
 rescue Psych::SyntaxError => error
-  abort(
-    "Refusing to write invalid library.yml: " \
-    "#{error.message}"
-  )
+  abort "Refusing to write invalid library.yml: #{error.message}"
 end
 
 File.write(catalog_path, updated_contents)
 
 puts "Updated #{ordered_ids.length} library order values."
-puts "Sorted #{entry_blocks.length} library entries alphabetically."
+puts "Sorted #{entries.length} library entries alphabetically."
